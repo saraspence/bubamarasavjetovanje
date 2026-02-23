@@ -9,6 +9,13 @@
   font-display: swap;
 }
 
+:root {
+  --color-ivory: #fbfff1;
+  --color-porcelain: #fcf9f5;
+  --color-black-forest: #0a400c;
+  --color-cinnamon-wood: #b56d53;
+  --color-fern: #5c7444;
+}
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -198,7 +205,7 @@ html {
 body {
   background-color: #2e3141;
   background-image:
-    linear-gradient(to top, rgba(46, 49, 65, 0.5), rgba(46, 49, 65, 0.5)),
+    linear-gradient(to top, rgba(46, 49, 65, 0.2), rgba(46, 49, 65, 0.2)),
     url("../../images/bg.jpg");
   background-size: auto, cover;
   background-attachment: fixed, fixed;
