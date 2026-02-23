@@ -1,6 +1,14 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
+@font-face {
+  font-family: "MufanPFS";
+  src: url("../webfonts/mufanpfs.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -369,7 +377,10 @@ h6 {
   font-weight: 700;
   letter-spacing: 0.1em;
   margin: 0 0 1em 0;
-  text-transform: uppercase;
+}
+
+.banner-title {
+  font-family: "MufanPFS", Raleway, Helvetica, sans-serif;
 }
 
 h1 a,
