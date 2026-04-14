@@ -157,13 +157,7 @@ html {
 }
 
 body {
-  background-color: #2e3141;
-  background-image:
-    linear-gradient(to top, rgba(46, 49, 65, 0.2), rgba(46, 49, 65, 0.2)),
-    url("../../images/bg.jpg");
-  background-size: auto, cover;
-  background-attachment: fixed, fixed;
-  background-position: center, center;
+  background-color: white;
 }
 
 body.is-preload *,
@@ -187,27 +181,9 @@ select,
 textarea {
   color: var(--color-text);
   font-family: "Candara", "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 16.5pt;
+  font-size: 12pt;
   font-weight: 300;
   line-height: 1.65;
-}
-
-@media screen and (max-width: 1680px) {
-  body,
-  input,
-  select,
-  textarea {
-    font-size: 13pt;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  body,
-  input,
-  select,
-  textarea {
-    font-size: 12pt;
-  }
 }
 
 a {
@@ -347,7 +323,7 @@ h3 {
   font-size: 0.9em;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   h2 {
     font-size: 1em;
   }
@@ -835,7 +811,7 @@ ul.contact li:first-child {
   margin-top: 0;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   ul.contact li {
     margin: 1.5em 0 0 0;
   }
@@ -983,14 +959,7 @@ button:disabled,
   width: 100%;
 }
 
-@media screen and (max-width: 980px) {
-  .features article {
-    margin: 1em 2em 1em 0;
-    width: calc(50% - 1em);
-  }
-}
-
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .features article {
     padding: 1.5em 1.5em 0.1em 1.5em;
     margin: 0.875em 1.75em 0.875em 0;
@@ -1086,7 +1055,7 @@ button:disabled,
   background-color: transparent;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   #header {
     height: 2.75em;
     line-height: 2.75em;
@@ -1111,6 +1080,7 @@ button:disabled,
   -moz-transition: -moz-filter 0.25s ease;
   -webkit-transition: -webkit-filter 0.25s ease;
   -ms-transition: -ms-filter 0.25s ease;
+  margin: 8% 12%;
   transition: filter 0.25s ease;
 }
 
@@ -1235,7 +1205,7 @@ button:disabled,
   background: var(--color-bg2);
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   #menu .inner {
     max-height: 100%;
     overflow-y: auto;
@@ -1268,10 +1238,19 @@ body.is-menu-visible #menu .inner {
   opacity: 1;
 }
 
+#logo-banner {
+  width: 50px;
+}
+
 /* Banner */
 
 #banner {
-  padding: 10em 0 4.75em 0;
+  padding: 8rem 0 8.25em 0;
+  background-image:
+      /* linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), */ url("../../images/bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: -6.5em;
 }
 
 #banner .inner {
@@ -1385,31 +1364,7 @@ body.is-menu-visible #menu .inner {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 1280px) {
-  #banner {
-    padding: 7em 0 8.25em 0;
-    background-color: #2e3141;
-    background-image:
-      linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)),
-      url("../../images/bg.jpg");
-    background-size: auto, cover;
-    background-position: center, center;
-    margin-bottom: -6.5em;
-  }
-}
-
-@media screen and (max-width: 980px) {
-  #banner {
-    padding: 12em 3em 12.375em 3em;
-    margin-bottom: -4.75em;
-  }
-
-  #banner .inner {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   #banner {
     padding: 5em 2em 4.25em 2em;
     margin-bottom: -2.5em;
@@ -1491,37 +1446,7 @@ body.is-preload #banner p {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 1280px) {
-  #wrapper > header {
-    padding: 9em 0 6.25em 0;
-    background-color: #2e3141;
-    background-image:
-      linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)),
-      url("../../images/bg.jpg");
-    background-size: auto, cover;
-    background-position:
-      center,
-      0% 30%;
-    margin-bottom: -6.5em;
-  }
-}
-
-@media screen and (max-width: 980px) {
-  #wrapper > header {
-    padding: 11em 3em 7.375em 3em;
-    background-size: auto, cover;
-    background-position:
-      center,
-      0% 0%;
-    margin-bottom: -4.75em;
-  }
-
-  #wrapper > header .inner {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   #wrapper > header {
     padding: 6.5em 2em 3em 2em;
     background-size: auto, 125%;
@@ -1708,41 +1633,7 @@ body.is-preload #banner p {
     0 1px 0 0 var(--color-bg2);
 }
 
-@media screen and (max-width: 980px) {
-  .wrapper {
-    margin: 4.75em 0;
-  }
-
-  .wrapper:before,
-  .wrapper:after {
-    height: 4.75em;
-  }
-
-  .wrapper:before {
-    top: -4.75em;
-  }
-
-  .wrapper:after {
-    bottom: -4.75em;
-    left: 0;
-  }
-
-  .wrapper .inner {
-    padding: 3em 3em 1em 3em;
-    width: 100%;
-  }
-
-  .wrapper.spotlight .image {
-    margin: 0 2em 2em 0;
-    width: 32em;
-  }
-
-  .wrapper.spotlight:nth-child(2n - 1) .image {
-    margin: 0 0 2em 2em;
-  }
-}
-
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .wrapper {
     margin: 2.5em 0;
   }
@@ -1791,12 +1682,6 @@ body.is-preload #banner p {
     margin: 0 0 1em 0 !important;
     max-width: 85%;
     width: 12em;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .wrapper .inner {
-    padding: 2em 1.5em 0.1em 1.5em;
   }
 }
 
@@ -1862,47 +1747,7 @@ body.is-preload #banner p {
   color: inherit;
 }
 
-@media screen and (max-width: 1280px) {
-  #footer {
-    background-color: #2e3141;
-    background-image:
-      linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)),
-      url("../../images/bg.jpg");
-    background-size: auto, cover;
-    background-position: center, center;
-    margin-top: -6.5em;
-    padding-top: 6.5em;
-  }
-}
-
-@media screen and (max-width: 980px) {
-  #footer {
-    margin-top: -4.75em;
-    padding-top: 4.75em;
-  }
-
-  #footer .inner {
-    padding: 3em 3em 1em 3em;
-    display: block;
-    width: 100%;
-  }
-
-  #footer .inner form {
-    width: 100%;
-    margin: 0 0 4em 0;
-  }
-
-  #footer .inner .contact {
-    width: 100%;
-    margin: 0 0 4em 0;
-  }
-
-  #footer .inner .copyright {
-    margin: 4em 0 2em 0;
-  }
-}
-
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   #footer {
     margin-top: -2.5em;
     padding-top: 2.5em;
@@ -1931,11 +1776,5 @@ body.is-preload #banner p {
 
   #footer .inner .copyright li:first-child {
     margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  #footer .inner {
-    padding: 2em 1.5em 0.1em 1.5em;
   }
 }
