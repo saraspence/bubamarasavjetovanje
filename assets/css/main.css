@@ -20,9 +20,9 @@
 :root {
   --color-bg1: #fbfff1;
   --color-bg2: #ffffff;
-  --color-black-forest: #0a400c;
-  --color-cinnamon-wood: #b56d53;
-  --color-text: #5c7444;
+  --color-contrast: #0a400c;
+  --color-accent: #b56d53;
+  --color-main: #5c7444;
 }
 /*
 	Solid State by HTML5 UP
@@ -150,20 +150,7 @@ html {
 }
 
 body {
-  background-color: white;
-}
-
-body.is-preload *,
-body.is-preload *:before,
-body.is-preload *:after {
-  -moz-animation: none !important;
-  -webkit-animation: none !important;
-  -ms-animation: none !important;
-  animation: none !important;
-  -moz-transition: none !important;
-  -webkit-transition: none !important;
-  -ms-transition: none !important;
-  transition: none !important;
+  background-color: var(--color-bg2);
 }
 
 /* Type */
@@ -172,7 +159,7 @@ body,
 input,
 select,
 textarea {
-  color: var(--color-text);
+  color: var(--color-main);
   font-family: "Candara", "Source Sans Pro", Helvetica, sans-serif;
   font-size: 12pt;
   font-weight: 300;
@@ -180,26 +167,14 @@ textarea {
 }
 
 a {
-  -moz-transition:
-    color 0.2s ease-in-out,
-    border-bottom-color 0.2s ease-in-out;
-  -webkit-transition:
-    color 0.2s ease-in-out,
-    border-bottom-color 0.2s ease-in-out;
-  -ms-transition:
-    color 0.2s ease-in-out,
-    border-bottom-color 0.2s ease-in-out;
-  transition:
-    color 0.2s ease-in-out,
-    border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-  color: #ffffff;
+  color: var(--color-main);
   text-decoration: none;
 }
 
 a:hover {
   border-bottom-color: transparent;
-  color: #ffffff !important;
+  color: var(--color-accent) !important;
 }
 
 a.special:not(.button) {
@@ -228,10 +203,6 @@ a.special:not(.button):before {
 }
 
 a.special:not(.button):before {
-  -moz-transition: background-color 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out;
   border-radius: 100%;
   border: solid 2px rgba(255, 255, 255, 0.125);
   content: "\f105";
@@ -270,21 +241,11 @@ p {
 h1,
 h2,
 h3 {
-  color: var(--color-text);
+  color: var(--color-main);
   font-family: "MufanPFS", Raleway, Helvetica, sans-serif;
   font-weight: 500;
   letter-spacing: 0.1em;
   margin: 0 0 1em 0;
-}
-
-.banner-title {
-  color: var(--color-bg2);
-  font-size: 2.5em;
-}
-
-.banner-subtitle {
-  color: var(--color-bg2);
-  font-size: 1.5em;
 }
 
 h1 a,
@@ -746,10 +707,6 @@ button,
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  -moz-transition: background-color 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 5px;
   border: 0;
@@ -868,10 +825,8 @@ button:disabled,
 /* Header */
 
 #header {
-  -moz-transition: background-color 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out;
+  /* TODO: Implement Me */
+  display: none;
   background-color: rgba(53, 56, 73, 0.95);
   height: 3.5em;
   left: 0;
@@ -884,18 +839,6 @@ button:disabled,
 }
 
 #header h1 {
-  -moz-transition:
-    opacity 0.2s ease-in-out,
-    visibility 0.2s;
-  -webkit-transition:
-    opacity 0.2s ease-in-out,
-    visibility 0.2s;
-  -ms-transition:
-    opacity 0.2s ease-in-out,
-    visibility 0.2s;
-  transition:
-    opacity 0.2s ease-in-out,
-    visibility 0.2s;
   border-bottom: 0;
   font-size: 0.8em;
   margin-bottom: 0;
@@ -938,11 +881,7 @@ button:disabled,
 /* Menu */
 
 #page-wrapper {
-  -moz-transition: -moz-filter 0.25s ease;
-  -webkit-transition: -webkit-filter 0.25s ease;
-  -ms-transition: -ms-filter 0.25s ease;
-  margin: 8% 12%;
-  transition: filter 0.25s ease;
+  margin: 4rem 8rem;
 }
 
 #menu {
@@ -959,18 +898,6 @@ button:disabled,
   -ms-justify-content: center;
   justify-content: center;
   pointer-events: none;
-  -moz-transition:
-    opacity 0.35s ease,
-    visibility 0.35s;
-  -webkit-transition:
-    opacity 0.35s ease,
-    visibility 0.35s;
-  -ms-transition:
-    opacity 0.35s ease,
-    visibility 0.35s;
-  transition:
-    opacity 0.35s ease,
-    visibility 0.35s;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -994,18 +921,6 @@ button:disabled,
   -webkit-transform: translateY(0.5em);
   -ms-transform: translateY(0.5em);
   transform: translateY(0.5em);
-  -moz-transition:
-    opacity 0.35s ease,
-    -moz-transform 0.35s ease;
-  -webkit-transition:
-    opacity 0.35s ease,
-    -webkit-transform 0.35s ease;
-  -ms-transition:
-    opacity 0.35s ease,
-    -ms-transform 0.35s ease;
-  transition:
-    opacity 0.35s ease,
-    transform 0.35s ease;
   -webkit-overflow-scrolling: touch;
   background: var(--color-bg1);
   border-radius: 5px;
@@ -1087,162 +1002,44 @@ body.is-menu-visible #menu .inner {
   opacity: 1;
 }
 
-#logo-banner {
-  width: 50px;
-}
-
 /* Banner */
 
 #banner {
-  padding: 8rem 0 8.25em 0;
+  padding: 32rem 0 0 0;
   background-image:
       /* linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), */ url("../../images/bg.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   margin-bottom: -6.5em;
-}
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-bottom: 60px;
+  padding-left: 24px;
 
-#banner .inner {
-  margin: 0 auto;
-  width: 55em;
-}
+  > .banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: -10px;
+    margin-left: 16px;
 
-#banner .logo {
-  -moz-transition:
-    opacity 2s ease,
-    -moz-transform 1s ease;
-  -webkit-transition:
-    opacity 2s ease,
-    -webkit-transform 1s ease;
-  -ms-transition:
-    opacity 2s ease,
-    -ms-transform 1s ease;
-  transition:
-    opacity 2s ease,
-    transform 1s ease;
-  -moz-transform: translateY(0);
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-  opacity: 1;
-  margin: 0 0 1.3em 0;
-}
+    > h1 {
+      color: var(--color-bg2);
+      font-size: 2.5em;
+      margin-bottom: -10px;
+    }
 
-#banner .logo .icon {
-  border-radius: 100%;
-  border: solid 2px rgba(255, 255, 255, 0.125);
-  cursor: default;
-  display: inline-block;
-  font-size: 2em;
-  height: 2.25em;
-  line-height: 2.25em;
-  text-align: center;
-  width: 2.25em;
-}
+    > h2 {
+      color: var(--color-bg2);
+      font-size: 1.5em;
+      margin-bottom: 0px;
+    }
+  }
 
-#banner h2 {
-  -moz-transition:
-    opacity 0.5s ease,
-    -moz-transform 0.5s ease,
-    -moz-filter 0.25s ease;
-  -webkit-transition:
-    opacity 0.5s ease,
-    -webkit-transform 0.5s ease,
-    -webkit-filter 0.25s ease;
-  -ms-transition:
-    opacity 0.5s ease,
-    -ms-transform 0.5s ease,
-    -ms-filter 0.25s ease;
-  transition:
-    opacity 0.5s ease,
-    transform 0.5s ease,
-    filter 0.25s ease;
-  -moz-transform: translateX(0);
-  -webkit-transform: translateX(0);
-  -ms-transform: translateX(0);
-  transform: translateX(0);
-  -moz-transition-delay: 0.65s;
-  -webkit-transition-delay: 0.65s;
-  -ms-transition-delay: 0.65s;
-  transition-delay: 0.65s;
-  -moz-filter: blur(0);
-  -webkit-filter: blur(0);
-  -ms-filter: blur(0);
-  filter: blur(0);
-  opacity: 1;
-  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-  margin-bottom: 0.8em;
-  padding-bottom: 0.4em;
-}
-
-#banner p {
-  -moz-transition:
-    opacity 0.5s ease,
-    -moz-transform 0.5s ease,
-    -moz-filter 0.25s ease;
-  -webkit-transition:
-    opacity 0.5s ease,
-    -webkit-transform 0.5s ease,
-    -webkit-filter 0.25s ease;
-  -ms-transition:
-    opacity 0.5s ease,
-    -ms-transform 0.5s ease,
-    -ms-filter 0.25s ease;
-  transition:
-    opacity 0.5s ease,
-    transform 0.5s ease,
-    filter 0.25s ease;
-  -moz-transform: translateX(0);
-  -webkit-transform: translateX(0);
-  -ms-transform: translateX(0);
-  transform: translateX(0);
-  -moz-transition-delay: 0.8s;
-  -webkit-transition-delay: 0.8s;
-  -ms-transition-delay: 0.8s;
-  transition-delay: 0.8s;
-  -moz-filter: blur(0);
-  -webkit-filter: blur(0);
-  -ms-filter: blur(0);
-  filter: blur(0);
-  opacity: 1;
-  font-family: "Candara", Raleway, Helvetica, sans-serif;
-  font-size: 1em;
-  font-weight: 200;
-  letter-spacing: 0.1em;
-  line-height: 2;
-  text-transform: uppercase;
-}
-
-body.is-preload #banner .logo {
-  -moz-transform: translateY(0.5em);
-  -webkit-transform: translateY(0.5em);
-  -ms-transform: translateY(0.5em);
-  transform: translateY(0.5em);
-  opacity: 0;
-}
-
-body.is-preload #banner h2 {
-  opacity: 0;
-  -moz-transform: translateX(0.25em);
-  -webkit-transform: translateX(0.25em);
-  -ms-transform: translateX(0.25em);
-  transform: translateX(0.25em);
-  -moz-filter: blur(2px);
-  -webkit-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px);
-}
-
-body.is-preload #banner p {
-  opacity: 0;
-  -moz-transform: translateX(0.5em);
-  -webkit-transform: translateX(0.5em);
-  -ms-transform: translateX(0.5em);
-  transform: translateX(0.5em);
-  -moz-filter: blur(2px);
-  -webkit-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px);
+  > img {
+    width: 80px;
+  }
 }
 
 /* Wrapper */
@@ -1397,6 +1194,7 @@ body.is-preload #banner p {
   margin: 0 3em 2em 0;
   width: 22em;
   overflow: hidden;
+  flex: 1;
   -ms-flex: 1;
 }
 
@@ -1407,6 +1205,7 @@ body.is-preload #banner p {
 
 .wrapper.spotlight .content {
   width: 100%;
+  flex: 2;
   -ms-flex: 2;
 }
 
@@ -1444,6 +1243,15 @@ body.is-preload #banner p {
 }
 
 /* Footer */
+#footer {
+  margin-top: -6.5em;
+  background-color: var(--color-contrast);
+  color: var(--color-bg2);
+}
+
+#footer a {
+  color: var(--color-bg2);
+}
 
 #footer .inner {
   padding: 5em 0 3em 0;
@@ -1486,7 +1294,6 @@ body.is-preload #banner p {
 
 #footer .inner .copyright li {
   border-left: solid 2px rgba(255, 255, 255, 0.125);
-  color: rgba(255, 255, 255, 0.35);
   display: inline-block;
   font-size: 0.9em;
   line-height: 1;
@@ -1501,12 +1308,9 @@ body.is-preload #banner p {
   padding-left: 0;
 }
 
-#footer .inner .copyright li a {
-  color: inherit;
-}
-
 /* Media Queries */
 
+/*
 @media screen and (max-width: 768px) {
   h2 {
     font-size: 1em;
@@ -1742,3 +1546,4 @@ body.is-preload #banner p {
     margin-top: 0;
   }
 }
+*/
