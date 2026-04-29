@@ -256,6 +256,18 @@ h3 {
 h2 {
   font-size: 1.7em;
   font-weight: 500;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 1.6em;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.5em;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 1.4em;
+  }
 }
 
 h3 {
@@ -960,24 +972,6 @@ body.is-menu-visible {
   padding-bottom: 50px;
   padding-left: 20px;
 
-  @media screen and (max-width: 1024px) {
-    height: 520px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-  }
-
-  @media screen and (max-width: 768px) {
-    height: 500px;
-    padding-bottom: 70px;
-    padding-left: 20px;
-  }
-
-  @media screen and (max-width: 480px) {
-    height: unset;
-    padding-bottom: 70px;
-    padding-left: 20px;
-  }
-
   background-image:
       /* linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), */ url("../../images/bg.jpg");
   background-size: 100%;
@@ -987,6 +981,21 @@ body.is-menu-visible {
   flex-direction: row;
   align-items: flex-end;
 
+  @media screen and (max-width: 1024px) {
+    height: 520px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 420px;
+    padding-bottom: 90px;
+    padding-left: 8px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 480px;
+  }
+
   > .banner-text {
     display: flex;
     flex-direction: column;
@@ -994,21 +1003,52 @@ body.is-menu-visible {
     margin-bottom: -10px;
     margin-left: 16px;
 
+    @media screen and (max-width: 768px) {
+      margin-left: 8px;
+    }
+
     > h1 {
       color: var(--color-bg2);
       font-size: 2.5em;
       margin-bottom: -10px;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 1.8em;
+        margin-bottom: -16px;
+      }
+
+      @media screen and (max-width: 768px) {
+        font-size: 1.4em;
+        margin-bottom: -10px;
+      }
     }
 
     > h2 {
       color: var(--color-bg2);
       font-size: 1.5em;
       margin-bottom: 0px;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 1.3em;
+        margin-bottom: 6px;
+      }
+
+      @media screen and (max-width: 768px) {
+        font-size: 1.2em;
+      }
     }
   }
 
   > img {
     width: 80px;
+
+    @media screen and (max-width: 1024px) {
+      width: 60px;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 60px;
+    }
   }
 }
 
@@ -1342,14 +1382,6 @@ body.is-menu-visible {
 }
 
 @media screen and (max-width: 768px) {
-  h2 {
-    font-size: 1.5em;
-  }
-
-  h3 {
-    font-size: 0.8em;
-  }
-
   ul.contact {
     li {
       margin: 1.5em 0 0 0;
