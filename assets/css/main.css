@@ -235,7 +235,7 @@ h3 {
   font-family: "MufanPFS", Raleway, Helvetica, sans-serif;
   font-weight: 500;
   letter-spacing: 0.1em;
-  margin: 0 0 1em 0;
+  margin: 0 0 0.5em 0;
 
   a {
     color: inherit;
@@ -248,13 +248,14 @@ h3 {
   }
 
   &.major {
-    padding-bottom: 1em;
-    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    padding-bottom: 0.2em;
+    border-bottom: solid 2px var(--color-main);
   }
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.7em;
+  font-weight: 500;
 }
 
 h3 {
@@ -1213,6 +1214,7 @@ body.is-menu-visible {
   background-color: var(--color-contrast);
   color: var(--color-bg2);
 
+  h2,
   a {
     color: var(--color-bg2);
   }
@@ -1341,7 +1343,7 @@ body.is-menu-visible {
 
 @media screen and (max-width: 768px) {
   h2 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   h3 {
@@ -1395,24 +1397,6 @@ body.is-menu-visible {
       .close {
         background-size: 1.5em 1.5em;
       }
-    }
-  }
-
-  #banner {
-    .logo {
-      margin: 0 0 1em 0;
-
-      .icon {
-        font-size: 1.5em;
-      }
-    }
-
-    h2 {
-      font-size: 1.5em;
-    }
-
-    p {
-      font-size: 0.8em;
     }
   }
 
