@@ -253,6 +253,23 @@ h3 {
   }
 }
 
+h1 {
+  font-size: 1.7em;
+  font-weight: 600;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 1.6em;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.5em;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 1.4em;
+  }
+}
+
 h2 {
   font-size: 1.7em;
   font-weight: 500;
@@ -271,7 +288,12 @@ h2 {
 }
 
 h3 {
-  font-size: 0.9em;
+  font-size: 1.3em;
+  font-weight: 500;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.2em;
+  }
 }
 
 code {
@@ -804,7 +826,6 @@ button,
 
   h1 {
     border-bottom: 0;
-    font-size: 0.8em;
     margin-bottom: 0;
     opacity: 1;
     visibility: visible;
@@ -1059,7 +1080,11 @@ body.is-menu-visible {
 
   .inner {
     margin: 0 auto;
-    width: 55em;
+    padding-left: 32px;
+
+    @media screen and (max-width: 768px) {
+      padding-left: 0px;
+    }
   }
 
   h2 {
