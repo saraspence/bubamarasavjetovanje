@@ -25,6 +25,9 @@
   --color-main: #5c7444;
 }
 
+.accent {
+  color: var(--color-accent);
+}
 html,
 body,
 div,
@@ -255,7 +258,7 @@ h3 {
 
 h1 {
   font-size: 1.7em;
-  font-weight: 600;
+  font-weight: 500;
 
   @media screen and (max-width: 1024px) {
     font-size: 1.6em;
@@ -565,7 +568,7 @@ input[type="radio"] + label:before {
 
   &.left {
     float: left;
-    padding: 0 1.5em 1em 0;
+    /* padding: 0 1.5em 1em 0; */
     top: 0.25em;
   }
 
@@ -1076,14 +1079,25 @@ body.is-menu-visible {
 /* Wrapper */
 
 #wrapper > header {
-  padding: 11em 0 2.25em 0;
+  /* padding: 11em 0 2.25em 0; */
 
   .inner {
     margin: 0 auto;
-    padding-left: 32px;
+    margin-bottom: 180px;
+    /* padding-left: 32px; */
 
     @media screen and (max-width: 768px) {
       padding-left: 0px;
+    }
+
+    > img {
+      /* height: 30vw; */
+      margin: 0 3em 2em 0;
+      /* width: 22em; */
+      /* overflow: hidden; */
+
+      border-radius: 100%;
+      width: 350px;
     }
   }
 
