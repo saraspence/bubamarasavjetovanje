@@ -11,6 +11,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Candara";
+  src: url("../webfonts/candara.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* === RESET === */
 *,
 *::before,
@@ -69,7 +77,7 @@ video {
 
 /* === BASE === */
 body {
-  font-family: "Source Sans 3", "Source Sans Pro", sans-serif;
+  font-family: "Candara", "Source Sans Pro", sans-serif;
   font-size: 1rem;
   line-height: 1.75;
   color: var(--c-text);
