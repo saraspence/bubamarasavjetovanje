@@ -475,17 +475,6 @@ ol {
   padding-bottom: 1rem;
   position: relative;
 }
-.section-heading h2::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 52px;
-  height: 3px;
-  background: var(--c-accent);
-  border-radius: 2px;
-}
 
 /* === PAGE HERO (inner pages) === */
 .page-hero {
