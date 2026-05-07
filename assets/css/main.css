@@ -48,7 +48,7 @@ button {
   --c-surface: #ffffff;
   --c-green: #3d6b30;
   --c-green-light: #4a8038;
-  --c-accent: #b56d53;
+  --c-accent: #c4897f;
   --c-text: #0a400c;
   --c-muted: color-mix(in srgb, var(--c-text) 65%, transparent);
 
@@ -447,11 +447,11 @@ ol {
 .section--dark h1,
 .section--dark h2,
 .section--dark h3 {
-  color: #fff;
+  color: var(--c-bg);
 }
 .section--dark p,
 .section--dark li {
-  color: rgba(255, 255, 255, 0.82);
+  color: var(--c-bg);
 }
 
 /* Label / eyebrow above heading */
@@ -485,9 +485,6 @@ ol {
   height: 3px;
   background: var(--c-accent);
   border-radius: 2px;
-}
-.section--dark .section-heading h2 {
-  color: #fff;
 }
 
 /* === PAGE HERO (inner pages) === */
@@ -715,7 +712,7 @@ ol {
   font-size: 0.78rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--c-bg);
 }
 
 .form-field input,
