@@ -6,12 +6,13 @@ class SiteFooter extends HTMLElement {
   connectedCallback() {
     this.setAttribute('role', 'contentinfo');
 
+    const isLight = this.hasAttribute('light');
+    const sectionClass = isLight ? 'section section--light' : 'section section--dark';
+
     this.innerHTML = `
-      <div class="section section--dark">
+      <div class="${sectionClass}">
         <div class="container">
-          <div class="section-heading">
-            <h2>Kontakt</h2>
-          </div>
+          ${isLight ? '' : '<div class="section-heading"><h2>Kontakt</h2></div>'}
 
           <div class="contact-grid">
             <form class="contact-form" method="post" action="#" novalidate>

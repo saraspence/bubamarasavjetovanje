@@ -454,6 +454,54 @@ ol {
   color: var(--c-bg);
 }
 
+.section--light {
+  background: var(--c-surface);
+}
+
+/* Light footer — form fields */
+.section--light .form-field label {
+  color: var(--c-text);
+}
+.section--light .form-field input,
+.section--light .form-field textarea {
+  background: var(--c-bg);
+  border-color: rgba(61, 107, 48, 0.22);
+  color: var(--c-text);
+}
+.section--light .form-field input:focus,
+.section--light .form-field textarea:focus {
+  border-color: var(--c-accent);
+  background: var(--c-surface);
+}
+.section--light .form-field input::placeholder,
+.section--light .form-field textarea::placeholder {
+  color: var(--c-muted);
+  opacity: 0.6;
+}
+
+/* Light footer — contact info list */
+.section--light .contact-info-list li {
+  color: var(--c-muted);
+}
+.section--light .contact-info-list a {
+  color: var(--c-muted);
+}
+.section--light .contact-info-list a:hover {
+  color: var(--c-text);
+}
+
+/* Light footer — copyright bar */
+.section--light .footer-bar {
+  border-top-color: rgba(61, 107, 48, 0.15);
+  color: var(--c-muted);
+}
+.section--light .footer-bar a {
+  color: var(--c-muted);
+}
+.section--light .footer-bar a:hover {
+  color: var(--c-text);
+}
+
 /* Label / eyebrow above heading */
 .eyebrow {
   display: block;
