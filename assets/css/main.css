@@ -47,10 +47,10 @@ button {
   --c-bg: #f4fbe8;
   --c-surface: #ffffff;
   --c-green: #3d6b30;
+  --c-green-light: #4a8038;
   --c-accent: #b56d53;
-  --c-dark: #0d2c0f;
-  --c-text: #2a3d20;
-  --c-muted: rgba(42, 61, 32, 0.65);
+  --c-text: #0a400c;
+  --c-muted: color-mix(in srgb, var(--c-text) 65%, transparent);
 
   --header-h: 4rem;
   --pad-x: 1.25rem;
@@ -97,7 +97,7 @@ h4 {
   font-family: "MufanPFS", Helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.2;
-  color: var(--c-dark);
+  color: var(--c-text);
 }
 
 h1 {
@@ -164,8 +164,8 @@ ol {
   border-color: var(--c-green);
 }
 .btn--primary:hover {
-  background: #4a8038;
-  border-color: #4a8038;
+  background: var(--c-green-light);
+  border-color: var(--c-green-light);
   color: #fff;
   text-decoration: none;
 }
@@ -218,7 +218,7 @@ ol {
 .site-header__logo-text {
   font-weight: 700;
   font-size: 0.95rem;
-  color: var(--c-dark);
+  color: var(--c-text);
   white-space: nowrap;
 }
 
@@ -255,11 +255,11 @@ ol {
     border-color var(--transition);
 }
 .site-nav__link:hover {
-  color: var(--c-dark);
+  color: var(--c-text);
   text-decoration: none;
 }
 .site-nav__link[aria-current="page"] {
-  color: var(--c-dark);
+  color: var(--c-text);
   border-bottom-color: var(--c-accent);
 }
 
@@ -285,7 +285,7 @@ ol {
   display: block;
   width: 22px;
   height: 2px;
-  background: var(--c-dark);
+  background: var(--c-text);
   border-radius: 2px;
   transition:
     transform var(--transition),
@@ -333,9 +333,10 @@ ol {
 }
 
 .nav-drawer__logo {
+  font-family: "MufanPFS", sans-serif;
   font-weight: 700;
-  font-size: 0.9rem;
-  color: var(--c-dark);
+  font-size: 1.25rem;
+  color: var(--c-text);
   text-decoration: none;
 }
 
@@ -358,7 +359,7 @@ ol {
 }
 .nav-drawer__close:hover {
   background: rgba(0, 0, 0, 0.05);
-  color: var(--c-dark);
+  color: var(--c-text);
 }
 
 .nav-drawer__list {
@@ -392,7 +393,7 @@ ol {
   align-items: end;
   justify-content: center;
   position: relative;
-  background: var(--c-dark) center / cover no-repeat;
+  background: var(--c-text) center / cover no-repeat;
   padding: calc(var(--header-h) + 2rem) var(--pad-x) 3rem;
 }
 
@@ -441,7 +442,7 @@ ol {
   background: var(--c-surface);
 }
 .section--dark {
-  background: var(--c-dark);
+  background: var(--c-text);
 }
 .section--dark h1,
 .section--dark h2,
@@ -540,9 +541,6 @@ ol {
 
 .spotlight__content h2 {
   margin-bottom: 1rem;
-}
-.spotlight__content p {
-  color: var(--c-muted);
 }
 
 .spotlight__link {
