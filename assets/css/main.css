@@ -35,6 +35,12 @@ video {
   max-width: 100%;
   display: block;
 }
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
 
 /* === CUSTOM PROPERTIES === */
 :root {
@@ -88,7 +94,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "MufanPFS", Raleway, Helvetica, sans-serif;
+  font-family: "MufanPFS", Helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.2;
   color: var(--c-dark);
@@ -138,7 +144,6 @@ ol {
 .btn {
   display: inline-block;
   padding: 0.7rem 1.8rem;
-  font-family: "Raleway", sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -211,7 +216,6 @@ ol {
   width: auto;
 }
 .site-header__logo-text {
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 0.95rem;
   color: var(--c-dark);
@@ -238,9 +242,9 @@ ol {
   display: block;
   padding: 0 1.1rem;
   color: var(--c-muted);
-  font-family: "Raleway", sans-serif;
+  font-family: "MufanPFS", sans-serif;
   font-weight: 600;
-  font-size: 0.825rem;
+  font-size: 1.25rem;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   text-decoration: none;
@@ -329,7 +333,6 @@ ol {
 }
 
 .nav-drawer__logo {
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
   color: var(--c-dark);
@@ -366,9 +369,9 @@ ol {
   display: block;
   padding: 1rem 0;
   color: var(--c-muted);
-  font-family: "Raleway", sans-serif;
+  font-family: "MufanPFS", sans-serif;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1.65rem;
   text-decoration: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   transition:
@@ -453,7 +456,6 @@ ol {
 /* Label / eyebrow above heading */
 .eyebrow {
   display: block;
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 0.72rem;
   letter-spacing: 0.12em;
@@ -548,7 +550,6 @@ ol {
   align-items: center;
   gap: 0.4rem;
   margin-top: 1.5rem;
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 0.825rem;
   letter-spacing: 0.07em;
@@ -712,7 +713,6 @@ ol {
 }
 
 .form-field label {
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 0.78rem;
   letter-spacing: 0.08em;
@@ -727,7 +727,6 @@ ol {
   border-radius: var(--radius);
   padding: 0.7rem 1rem;
   color: #fff;
-  font-family: "Source Sans 3", sans-serif;
   font-size: 0.95rem;
   transition:
     border-color var(--transition),
