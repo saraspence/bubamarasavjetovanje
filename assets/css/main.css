@@ -668,7 +668,6 @@ ol {
   aspect-ratio: 1;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid var(--c-accent);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
 }
 
