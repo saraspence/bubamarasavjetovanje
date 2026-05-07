@@ -795,7 +795,7 @@ ol {
 
 .contact-info-list li {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.9rem;
   color: rgba(255, 255, 255, 0.78);
 }
@@ -803,7 +803,6 @@ ol {
   color: var(--c-accent);
   width: 1rem;
   flex-shrink: 0;
-  margin-top: 0.3rem;
   font-size: 0.9rem;
 }
 .contact-info-list a {
