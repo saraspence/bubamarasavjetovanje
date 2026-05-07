@@ -10,6 +10,7 @@ class SiteHeader extends HTMLElement {
       { href: 'index.html', label: 'Home' },
       { href: 'about.html', label: 'O meni' },
       { href: 'services.html', label: 'Usluge' },
+      { href: 'faq.html', label: 'FAQ' },
     ];
 
     const currentFile = window.location.pathname.split('/').pop() || 'index.html';
