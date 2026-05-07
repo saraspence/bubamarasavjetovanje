@@ -169,8 +169,8 @@ ol {
   right: 0;
   z-index: 100;
   height: var(--header-h);
-  background: var(--c-dark);
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
 .site-header__inner {
@@ -191,14 +191,14 @@ ol {
   flex-shrink: 0;
 }
 .site-header__logo img {
-  height: 2.1rem;
+  height: 3.5rem;
   width: auto;
 }
 .site-header__logo-text {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 0.95rem;
-  color: #fff;
+  color: var(--c-dark);
   white-space: nowrap;
 }
 
@@ -221,7 +221,7 @@ ol {
 .site-nav__link {
   display: block;
   padding: 0 1.1rem;
-  color: rgba(255, 255, 255, 0.78);
+  color: var(--c-muted);
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 0.825rem;
@@ -235,11 +235,11 @@ ol {
     border-color var(--transition);
 }
 .site-nav__link:hover {
-  color: #fff;
+  color: var(--c-dark);
   text-decoration: none;
 }
 .site-nav__link[aria-current="page"] {
-  color: #fff;
+  color: var(--c-dark);
   border-bottom-color: var(--c-accent);
 }
 
@@ -265,7 +265,7 @@ ol {
   display: block;
   width: 22px;
   height: 2px;
-  background: #fff;
+  background: var(--c-dark);
   border-radius: 2px;
   transition:
     transform var(--transition),
@@ -293,7 +293,7 @@ ol {
   bottom: 0;
   z-index: 300;
   width: min(280px, 85vw);
-  background: var(--c-dark);
+  background: #fff;
   padding: 1.5rem;
   transform: translateX(100%);
   transition: transform 0.28s ease;
@@ -316,14 +316,14 @@ ol {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
-  color: #fff;
+  color: var(--c-dark);
   text-decoration: none;
 }
 
 .nav-drawer__close {
   background: none;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: rgba(0, 0, 0, 0.5);
   font-size: 1.1rem;
   width: 2rem;
   height: 2rem;
@@ -338,8 +338,8 @@ ol {
     color var(--transition);
 }
 .nav-drawer__close:hover {
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--c-dark);
 }
 
 .nav-drawer__list {
@@ -349,12 +349,12 @@ ol {
 .nav-drawer__link {
   display: block;
   padding: 1rem 0;
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--c-muted);
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
   text-decoration: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   transition:
     color var(--transition),
     padding-left var(--transition);
