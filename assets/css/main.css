@@ -377,17 +377,6 @@ ol {
   padding: calc(var(--header-h) + 2rem) var(--pad-x) 3rem;
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    160deg,
-    rgba(13, 44, 15, 0.2) 0%,
-    rgba(13, 44, 15, 0.2) 100%
-  );
-}
-
 .hero__content {
   position: relative;
   z-index: 1;
