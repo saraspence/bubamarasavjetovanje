@@ -416,13 +416,6 @@ ol {
   letter-spacing: 0.03em;
 }
 
-.hero__actions {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 /* === SECTIONS === */
 .section {
   padding: var(--pad-y) 0;
