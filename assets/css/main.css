@@ -500,6 +500,13 @@ ol {
   align-items: center;
 }
 
+@media (min-width: 600px) and (max-width: 959px) {
+  .spotlight__image {
+    max-width: 450px;
+    margin-inline: auto;
+  }
+}
+
 @media (min-width: 960px) {
   .spotlight {
     grid-template-columns: 1fr 1fr;
