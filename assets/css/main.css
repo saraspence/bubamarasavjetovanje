@@ -743,6 +743,32 @@ ol {
   gap: 1rem;
 }
 
+.contact-form__honeypot {
+  display: none;
+}
+
+.form-status {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 0.25rem;
+}
+
+.form-status--success {
+  color: #a8e6a0;
+}
+
+.form-status--error {
+  color: #f5a8a8;
+}
+
+.section--light .form-status--success {
+  color: var(--c-green);
+}
+
+.section--light .form-status--error {
+  color: #b33a3a;
+}
+
 .form-field {
   display: flex;
   flex-direction: column;
