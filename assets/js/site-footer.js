@@ -137,13 +137,13 @@ class SiteFooter extends HTMLElement {
 
         if (response.ok) {
           showStatus(
-            json.message || 'Hvala! Vaša poruka je poslana.',
+            'Hvala! Vaša poruka je poslana.',
             'success'
           );
           form.reset();
         } else {
           showStatus(
-            json.message || 'Došlo je do greške. Pokušajte ponovno.',
+            'Došlo je do greške. Pokušajte ponovno.',
             'error'
           );
         }
