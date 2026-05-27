@@ -71,7 +71,7 @@ class SiteFooter extends HTMLElement {
                 </li>
                 <li>
                   <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                  <a href="https://www.instagram.com/bubamarasavjetovanje/" rel="noopener noreferrer">Instagram</a>
+                  <a href="https://www.instagram.com/bubamarasavjetovanje/" rel="noopener noreferrer" target="_blank">Instagram</a>
                 </li>
               </ul>
             </div>
