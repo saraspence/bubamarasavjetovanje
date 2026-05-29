@@ -67,7 +67,7 @@ class SiteFooter extends HTMLElement {
                 </li>
                 <li>
                   <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
-                  <a href="#" rel="noopener noreferrer">Facebook</a>
+                  <a href="https://www.facebook.com/profile.php?id=61590503877725" rel="noopener noreferrer" target="_blank">Facebook</a>
                 </li>
                 <li>
                   <i class="fa-brands fa-instagram" aria-hidden="true"></i>
