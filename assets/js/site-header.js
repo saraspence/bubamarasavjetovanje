@@ -34,7 +34,7 @@ class SiteHeader extends HTMLElement {
       <header class="site-header">
         <div class="site-header__inner">
           <a href="index.html" class="site-header__logo" aria-label="Bubamara Savjetovanje – početna">
-            <img src="assets/images/logo-t.png" alt="Bubamara Savjetovanje"
+            <img src="assets/images/logo-t2.png" alt="Bubamara Savjetovanje"
                  onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
             <span class="site-header__logo-text" style="display:none">Bubamara Savjetovanje</span>
           </a>
