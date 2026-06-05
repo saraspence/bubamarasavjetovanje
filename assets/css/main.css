@@ -213,6 +213,7 @@ ol {
 }
 .site-header__logo img {
   height: 3.5rem;
+  padding: 0.25rem;
   width: auto;
 }
 .site-header__logo-text {
@@ -418,7 +419,7 @@ ol {
 }
 @media (min-width: 960px) {
   .hero__logo {
-    height: 155px;
+    height: 180px;
   }
 }
 
