@@ -7,7 +7,7 @@ class SiteHeader extends HTMLElement {
     this.setAttribute('role', 'banner');
 
     const links = [
-      { href: 'index.html', label: 'Home' },
+      { href: 'index.html', label: 'Naslovna' },
       { href: 'about.html', label: 'O meni' },
       { href: 'services.html', label: 'Usluge' },
       { href: 'faq.html', label: 'FAQ' },
