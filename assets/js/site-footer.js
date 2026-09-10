@@ -74,6 +74,12 @@ class SiteFooter extends HTMLElement {
                   <a href="https://www.instagram.com/bubamarasavjetovanje/" rel="noopener noreferrer" target="_blank">Instagram</a>
                 </li>
               </ul>
+
+              <ul class="footer-links">
+                <li><a href="faq.html#pricing">Cjenik</a></li>
+                <li><a href="privacy.html">Politika privatnosti</a></li>
+                <li><a href="complaints.html">Podnošenje prigovora</a></li>
+              </ul>
             </div>
           </div>
 

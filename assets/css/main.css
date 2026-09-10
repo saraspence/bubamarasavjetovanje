@@ -492,6 +492,16 @@ ol {
 }
 
 /* Light footer — copyright bar */
+.section--light .footer-links {
+  border-top-color: rgba(61, 107, 48, 0.18);
+}
+.section--light .footer-links a {
+  color: var(--c-green);
+}
+.section--light .footer-links a:hover {
+  color: var(--c-accent);
+}
+
 .section--light .footer-bar {
   border-top-color: rgba(61, 107, 48, 0.15);
   color: var(--c-muted);
@@ -852,6 +862,26 @@ ol {
   text-decoration: underline;
 }
 
+/* === FOOTER SECONDARY / LEGAL LINKS === */
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin-top: 1.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 0.9rem;
+}
+.footer-links a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 /* === FOOTER BAR === */
 .footer-bar {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
@@ -956,6 +986,46 @@ ol {
   font-size: 1.05rem;
   color: var(--c-muted);
   margin-bottom: 0;
+}
+.faq-cta--flush {
+  margin-top: 0;
+}
+
+/* === LEGAL PAGES === */
+.legal {
+  max-width: 760px;
+  margin-inline: auto;
+}
+.legal > *:first-child {
+  margin-top: 0;
+}
+.legal h2 {
+  font-size: clamp(1.15rem, 2.5vw, 1.5rem);
+  color: var(--c-green);
+  margin-top: 2.75rem;
+  margin-bottom: 0.85rem;
+}
+.legal__lead {
+  font-size: 1.08rem;
+  color: var(--c-muted);
+}
+.legal ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1em;
+}
+.legal li {
+  margin-bottom: 0.6rem;
+}
+.legal li:last-child {
+  margin-bottom: 0;
+}
+.legal__updated {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(61, 107, 48, 0.18);
+  font-size: 0.9rem;
+  color: var(--c-muted);
 }
 
 /* === UTILITY === */

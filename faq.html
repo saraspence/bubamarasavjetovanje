@@ -161,15 +161,15 @@
               </div>
             </details>
 
-            <!-- Q6 -->
-            <details class="faq-item">
+            <!-- Q6 — pricing (anchor target: faq.html#pricing) -->
+            <details class="faq-item" id="pricing">
               <summary class="faq-item__question">
                 Koje su cijene i načini plaćanja?
               </summary>
               <div class="faq-item__answer">
                 <p>
-                  Cijena jednog susreta je <strong>40 eura</strong>, a blok-susreta 80 eura. Cijena Reiki tretmana je <strong>25 eura</strong>, no moguć je i popust za ukupne uplate unaprijed za 10 tretmana.<p>
-                  <p>Platiti se može <strong>isključivo</strong> putem bankovne transakcije po izdanom računu. Popusti se odobravaju ovisno o zadovoljenju kriterija u javnim promocijama.<p>
+                  Cijena jednog susreta je <strong>40 eura</strong>, a blok-susreta 80 eura. Cijena Reiki tretmana je <strong>25 eura</strong>, no moguć je i popust za ukupne uplate unaprijed za 10 tretmana.</p>
+                  <p>Platiti se može <strong>isključivo</strong> putem bankovne transakcije po izdanom računu. Popusti se odobravaju ovisno o zadovoljenju kriterija u javnim promocijama.</p>
                   <p>U <strong>slučaju otkazivanja</strong> manje od 24 sata prije dogovorenog termina (uključujući vikende i blagdane), naplaćuje se 50% cijene susreta.</p>
               </div>
             </details>
@@ -188,5 +188,19 @@
 
     <script src="assets/js/site-header.js" type="module"></script>
     <script src="assets/js/site-footer.js" type="module"></script>
+    <script>
+      /* Open and scroll to the question targeted by the URL anchor */
+      (function () {
+        const openFromHash = (behavior) => {
+          if (!location.hash) return;
+          const item = document.getElementById(location.hash.slice(1));
+          if (!item || !item.classList.contains('faq-item')) return;
+          item.open = true;
+          item.scrollIntoView({ block: 'center', behavior });
+        };
+        window.addEventListener('hashchange', () => openFromHash('smooth'));
+        openFromHash('auto');
+      })();
+    </script>
   </body>
 </html>
