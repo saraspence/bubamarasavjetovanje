@@ -1,0 +1,341 @@
+{
+  "_review": {
+    "_note": "Keys below were NOT in the supplied English text and were written by the developer. Please review.",
+    "keys": [
+      "home.title", "home.description", "home.aboutP1", "home.aboutP2", "home.aboutLink",
+      "home.card1Items", "home.card2Items", "home.allServices",
+      "about.title", "about.description", "about.videoHeading",
+      "services.title", "services.description", "services.cta", "services.ctaReiki", "services.ctaRelax",
+      "services.pricingText", "services.pricingCta",
+      "faq.title", "faq.description", "faq.heading", "faq.subheading",
+      "faq.pricing.intro (validity date aligned to the Croatian 10 September 2026; supplied text said 1 June 2026)",
+      "contact.title", "contact.description",
+      "privacy.title", "privacy.description", "complaints.title", "complaints.description",
+      "notFound.*", "footer.* (form labels, placeholders and status messages)", "nav.* aria labels"
+    ]
+  },
+
+  "meta": { "code": "en", "name": "English" },
+
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "services": "Services",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menu": "Menu",
+    "mainNav": "Main navigation",
+    "logoAria": "Bubamara Savjetovanje – home",
+    "language": "Language"
+  },
+
+  "home": {
+    "title": "Bubamara Counselling — For a life you love!",
+    "description": "Personal development and quality of life coaching. Sara Spence, M.A. Psych., certified life coach.",
+    "heroAria": "Cover banner",
+    "heroTitle": "Bubamara Counselling",
+    "heroTagline": "For a life you love!",
+    "introHeading": "Personal Development & Quality of Life Coaching",
+    "introP1": "The world we live in has changed drastically over the past few decades and achieving the quality of life we want is becoming increasingly challenging. Personal development is becoming more important than ever if we want to reach our full potential. On that path, all of us sometimes need support. That may involve “small” things, such as building healthier habits and managing stress, or more significant and “bigger” challenges, such as life transitions, difficulties, and major changes.",
+    "introP2": "My aim is to support you on your path of self-discovery and help you grow into a person living an authentic and fulfilled life. Within a space of trust, safety, and complete respect for your individuality, my goal is to help you achieve what matters most to you.",
+    "aboutHeading": "Sara Spence",
+    "aboutP1": "I am Sara Spence, a psychologist and life coach. Through my own experience of facing challenging life situations, I have learned how to turn obstacles into opportunities for growth and to find myself again in new circumstances.",
+    "aboutP2": "My main goal is to use all the knowledge, experience and methods I have refined to support you in reaching your fullest potential and building a life you love living.",
+    "aboutLink": "Learn more about me",
+    "servicesHeading": "Services",
+    "card1Title": "Life Goals, Habits & Career",
+    "card1Items": [
+      "Defining and developing plans to reach your goals",
+      "Discovering your life purpose and direction",
+      "Developing strategies for problem-solving and decision-making",
+      "Improving job-market presentation skills",
+      "Building habits that support health and wellbeing"
+    ],
+    "card2Title": "Navigating Life Changes & Transitions",
+    "card2Items": [
+      "Support during challenging life events and changes",
+      "Processing events, emotions, and thoughts",
+      "Recognizing new possibilities within your current circumstances",
+      "Developing resilience and new ways of adapting"
+    ],
+    "allServices": "All services"
+  },
+
+  "about": {
+    "title": "About me — Bubamara Counselling",
+    "description": "Sara Spence, M.A. Psych. and certified life coach. Learn more about my approach and education.",
+    "heading": "About me",
+    "bioHeading": "Sara Spence",
+    "bioMeta": "M.A. Psych., Certified Life Coach",
+    "bioP1": "I am Sara Spence, a psychologist and life coach. Throughout my life, I have faced many challenges and obstacles that shaped me into the person I am today. I have moved to another country, lost my husband to a heart attack in early 2017, went through my mother’s illness and passing, and moved countries again to return to Croatia and start anew. To navigate these challenges and changes, I had to learn to see obstacles as opportunities for growth. I needed to reconnect with myself (my needs and emotions) and rebuild my life from the ground up in completely new circumstances - twice.",
+    "bioP2": "Learning to love myself, become my own best friend, parent, and support system was the hardest challenge, but also the greatest gift I could have given myself. Through my personal journey, I discovered the value of self-development and recognized the positive impact it has on, not just myself, but the people around me as well.",
+    "bioP3": "Now I want to use all the knowledge and experience I have gained to support you in reaching your potential and creating a life you love living. At the core of my work are understanding, respect, and the creation of a safe space for exploration and growth. I deeply believe that every person is capable of change and that we ourselves are our greatest resource. Even with that, we sometimes need support. That is why I do not offer ready-made solutions — instead, I help you find the ones that are right for you. I adapt my approach and methods to your unique needs and characteristics, whether through evidence-based practices or through approaches that integrate spirituality with science.",
+    "videoHeading": "Meet me",
+    "videoTitle": "Sara Spence – video",
+    "certHeading": "Education, certificates and practices",
+    "certs": [
+      "2011 Master’s Degree in Psychology, Faculty of Humanities and Social Sciences, University of Zagreb",
+      "2014 – 2020 Lived and worked in the United Kingdom",
+      "Since 2018 – Yoga, meditation, dance, and various other practices",
+      "2019 Gregg Braden Conference, Amsterdam",
+      "2019 Inka I Initiation, Zagreb",
+      "2024 Reiki Holy Fire III, Level I & II Initiation (one-on-one online intensive)",
+      "2020 – 2025 Employed as an HR Consultant at DEKRA zapošljavanje",
+      "2025 NLP: Your Ultimate Guide to NLP (online course)",
+      "2025 REBT: The Science of Re-Programming Your Mind! (online course)",
+      "2025 How to Process Emotions, Therapy in a Nutshell",
+      "2025 Grounding Skills for Anxiety & Anxiety Skills (online courses)",
+      "2026 Certified Life Coach (diploma, online)",
+      "2026 Mindfulness-Based Stress Reduction Program, Palouse Mindfulness",
+      "2026 Polyvagal Theory, Attachment Theory, Trauma & CFT (Compassion-Focused Therapy), two-day training with Petra Malešević, M.A. Psych.",
+      "2026 Loss: Self-Support and Supporting Others in Grief, three-day workshop with Prof. Lidija Arambašić, PhD"
+    ]
+  },
+
+  "services": {
+    "title": "Services — Bubamara Counselling",
+    "description": "Personal development, life transitions, spiritual and energy work, Reiki and relaxation groups. Find out how I can help.",
+    "heading": "Services",
+    "subheading": "A personalised approach to your needs and goals",
+    "cta": "Make an appointment",
+    "ctaReiki": "Book a treatment",
+    "ctaRelax": "Join a group",
+    "goals": {
+      "heading": "Life Goals, Habits & Career",
+      "items": [
+        "Defining and developing plans for short- and long-term goals in any area of life",
+        "Discovering your life purpose and direction",
+        "Developing strategies for problem-solving and making important life decisions",
+        "Career guidance and professional development",
+        "Improving job-market presentation skills (CV writing, social media profiles, interview preparation)",
+        "Building habits that support health and wellbeing (stress and time management, nutrition, exercise, sleep, self-care)",
+        "Strengthening long-term motivation and persistence"
+      ]
+    },
+    "transitions": {
+      "heading": "Navigating Life Changes & Transitions",
+      "items": [
+        "Support during challenging life events (illness, breakups, career changes, losses - your own or those of loved ones)",
+        "Processing events, emotions, and thoughts",
+        "Recognizing new possibilities within your current circumstances",
+        "Developing resilience and new ways of adapting to change"
+      ]
+    },
+    "personal": {
+      "heading": "Personal Development & Self-Understanding",
+      "items": [
+        "Identifying and understanding internal obstacles, limiting beliefs, and unhelpful behaviour patterns",
+        "Understanding causes and patterns behind different life outcomes (why things happen)",
+        "Changing your self-image, inner dialogue, thinking patterns, and behaviours",
+        "Understanding your emotions and emotional reactions",
+        "Processing emotions and developing effective coping strategies",
+        "Developing communication skills to improve relationships and increase the likelihood of success",
+        "Identifying your core values as a foundation for an authentic and fulfilling life"
+      ]
+    },
+    "spiritual": {
+      "heading": "Support in Spiritual & Energetic Work",
+      "intro": "In recent decades, science has begun to validate concepts that were once considered purely spiritual. Have you ever wondered:",
+      "items": [
+        "What does enlightenment really mean? How do we achieve it?",
+        "How can I raise my vibrational frequency fully and permanently?",
+        "What exactly is manifestation? What are the steps and how do I do it?",
+        "How do I use affirmations? I try to think positively, but nothing changes.",
+        "Meditation doesn’t work for me — what should I do instead?",
+        "I absorb and feel other people’s emotions very strongly. How do I protect myself?",
+        "What exactly is the ego and why does it sometimes become so active?",
+        "How do I develop my intuition? It seems to work sometimes, and sometimes not.",
+        "Are the energies I work with (or encounter) positive? How can I tell the difference?"
+      ],
+      "outro": "These are just some of the questions that may arise on a spiritual development journey. If you feel “stuck” at any point, I am here to help. Through my own experience and practices, I have learned to combine “intangible” spiritual concepts with practical techniques and tools that I would be happy to share with you. We often need very little in order to continue on our own. So, whether we do one session or more, it will depend entirely on your needs and preferences."
+    },
+    "reiki": {
+      "heading": "Energy healing - Reiki Holy Fire III",
+      "intro": "Reiki Holy Fire III is a gentle yet remarkably powerful form of energy healing, renowned for its deeply cleansing, nurturing and transformative qualities. It works by activating the body’s natural ability to return to a state of balance, release tension, and cultivate a deeper sense of inner peace. It helps us reconnect with our inner strength, clarity and sense of direction—gently and always in alignment with our own rhythm. It may support you if you are:",
+      "items": [
+        "looking for emotional relief, grounding or calm",
+        "feeling overwhelmed, stressed or energetically depleted",
+        "wanting to reconnect with yourself and your intuition",
+        "going through life transitions or healing processes",
+        "needing support in releasing old patterns or emotional blocks",
+        "wanting to raise your vibration and feel more aligned"
+      ],
+      "outro": "Because Reiki is an intelligent energy in its own right, it always works in whatever way serves you best in that exact moment. It can help you feel more relaxed and restored, or bring profound shifts right in the areas where you are ready for change."
+    },
+    "relax": {
+      "heading": "Relaxation Groups",
+      "p1": "Research shows that regular practice of relaxation techniques reduces the impact of stress and increases focus, calm and a sense of wellbeing. It also helps us notice what is happening within us more easily, which can be key to navigating various situations and achieving our goals (even if that goal is \"just\" feeling okay).",
+      "p2": "These groups are designed to help you carve out time for yourself, and to learn and practice a variety of relaxation techniques. Each session's guided relaxation may look a little different, yet its core aim will always remain the same: soothing the nervous system, releasing tension, and quieting the mind. In doing so, we bring our system back to the \"here and now\", giving it a much-needed break from everyday life.",
+      "sessionsIntro": "Sessions take place online, last approximately 30 minutes, and consist of:",
+      "sessionItems": [
+        "a brief intro and settling in",
+        "relaxation practice (20 minutes)",
+        "a closing debrief with space for questions and comments"
+      ],
+      "needHeading": "What do you need to take part?",
+      "needItems": [
+        "a device capable of running Google Meet",
+        "a quiet space and uninterrupted time where you can truly unwind",
+        "no prior knowledge or experience needed – all practices are fully guided so you can deeply relax and surrender to the experience"
+      ],
+      "closing": "Ready to do something good for yourself—and, in turn, for everyone around you?"
+    },
+    "pricingHeading": "Pricing",
+    "pricingText": "Prices of sessions and Reiki treatments, payment and cancellation terms.",
+    "pricingCta": "See the price list"
+  },
+
+  "faq": {
+    "title": "FAQ — Bubamara Counselling",
+    "description": "Frequently asked questions about counselling, Reiki treatments, sessions and prices. Everything you need to know.",
+    "heading": "Frequently Asked Questions",
+    "subheading": "Everything you need to know before taking the first step",
+    "q1": {
+      "q": "How do I know if this is right for me?",
+      "intro": "You’re in the right place if:",
+      "items": [
+        "You feel you can or want to do more, but don’t know what or how",
+        "You want to change careers or find your life purpose",
+        "You’re dealing with stress, exhaustion, overwhelm, or difficulty relaxing",
+        "You want to manage your emotions more effectively",
+        "You have goals but aren’t sure how to reach them",
+        "You know what you need, but struggle to get started",
+        "You’re going through a challenging period and need support",
+        "You want to deepen your self-understanding",
+        "You want to learn to love and appreciate yourself more"
+      ],
+      "outro": "If your answer to any of these is \"yes\", we can explore the answers together."
+    },
+    "q2": {
+      "q": "What happens if I decide to reach out?",
+      "answer": [
+        "First of all — congratulations on your courage! To get started, fill out the contact form or email me at <a href=\"mailto:sara.spence@bubamarasavjetovanje.hr\">sara.spence@bubamarasavjetovanje.hr</a>. Please include a short info on your reasons for contacting me with any additional notes if needed (e.g., preferred time or format of sessions).",
+        "Once I receive your message, I will contact you to arrange the session time and format."
+      ]
+    },
+    "q3": {
+      "q": "What do sessions look like and how often do they take place?",
+      "answer": [
+        "Sessions can be held online or in person, in Croatian or English, depending on your preferences.",
+        "Sessions usually last 50 minutes, and extended sessions (90–100 minutes) can be arranged if needed.",
+        "The frequency of sessions varies. Ideally, sessions are regular (e.g., weekly or bi-weekly), as consistency supports the change process by providing structure and continuity.",
+        "Reiki sessions are conducted exclusively remotely (online). Each session lasts 25–35 minutes. During the session, you should remain awake and either lying down or sitting comfortably, in your own space, free of distractions."
+      ]
+    },
+    "q4": {
+      "q": "What can I expect from Sara and the process?",
+      "answer": [
+        "Because I place great importance on “humanity,” my core values include compassion, respect, and appreciation for each person’s unique characteristics, needs, desires, and circumstances. You can expect me to do everything I can to ensure you feel seen, acknowledged, and free to express whatever is important to you in that moment. You can also expect occasional questions, exercises, and feedback, depending on the situation. These are invitations to broaden your perspective, discover new creative solutions, and achieve meaningful change.",
+        "During Reiki sessions, you may experience physical sensations, emotions or insights — or nothing at all. Reiki is gentle yet highly intelligent and powerful, and its effects depend entirely on what is best for you at that moment."
+      ]
+    },
+    "q5": {
+      "q": "How quickly can I expect results?",
+      "answer": [
+        "The pace of progress depends on your specific goal and situation. The number of sessions may range from just one to many.",
+        "The number of Reiki sessions never exceeds 10 without a longer break in between."
+      ]
+    },
+    "pricing": {
+      "q": "Prices & Payment Terms",
+      "intro": "In accordance with consumer protection regulations, I hereby publish this <strong>price list of services</strong> for Bubamara savjetovanje, sole proprietorship owned by Sara Spence, Slavka Kolara 10, Velika Gorica, valid as of 10 September 2026:",
+      "items": [
+        "Individual counselling session (single): €40",
+        "Block session (double/extended): €80",
+        "Reiki treatment: €25 (discounts available when booking and paying for 10 sessions in advance)"
+      ],
+      "terms": "Payment & promotional terms: Payment is accepted <strong>exclusively</strong> via <strong>bank transfer</strong> upon invoice issuance. Promotional discounts apply subject to meeting public campaign criteria.",
+      "cancellation": "Cancellation policy: Cancellations made <strong>less than 24 hours</strong> prior to the scheduled appointment (including weekends and public holidays) will incur a charge of <strong>50%</strong> of the session fee."
+    },
+    "ctaText": "Still have questions? Feel free to reach out.",
+    "ctaButton": "Send a message"
+  },
+
+  "contact": {
+    "title": "Contact — Bubamara Counselling",
+    "description": "Get in touch. Sara Spence, M.A. Psych. and certified life coach — Bubamara Counselling.",
+    "heading": "Contact"
+  },
+
+  "privacy": {
+    "title": "Privacy Policy — Bubamara Counselling",
+    "description": "Privacy Policy — how Bubamara savjetovanje collects, processes and protects your personal data.",
+    "heading": "Privacy Policy",
+    "lead": "This Privacy Policy explains how Bubamara savjetovanje, Slavka Kolara 10, Velika Gorica, VAT/OIB 37702159237 collects, processes and protects your personal data when you visit the website bubamarasavjetovanje.hr or contact me.",
+    "intro": "Protecting your personal data is of utmost importance to me. Please read this Privacy Policy carefully to learn which data is collected and for what purposes it is used.",
+    "s1h": "1. What personal data is collected?",
+    "s1p1": "Via the website, only personal data that you voluntarily provide through the contact form or direct email is collected: full name, email address, phone number, and the content of the message/inquiry you submit.",
+    "s1p2": "Since my website does not use tracking cookies or web analytics tools, technical browsing data is not automatically collected.",
+    "s2h": "2. Purpose and legal basis for processing data",
+    "s2intro": "Your personal data is collected and processed for the following purposes:",
+    "s2items": [
+      "<strong>Responding to your inquiries:</strong> When you contact me with an inquiry about the services I offer, I process your data in order to reply to your inquiry and agree on next steps (based on taking pre-contractual steps at your request).",
+      "<strong>Execution of service and contract:</strong> If you become my client, I use your data to perform the services and maintain business records (in compliance with statutory invoicing obligations)."
+    ],
+    "s3h": "3. How long is your data retained?",
+    "s3items": [
+      "<strong>Inquiries without subsequent collaboration:</strong> Data submitted via the contact form that does not result in the provision of a service is retained for a maximum of 12 months from the last communication, after which it is deleted.",
+      "<strong>Client data (accounting documentation):</strong> Data on performed services and issued invoices are retained for the statutory period prescribed by accounting and tax regulations (typically 11 years)."
+    ],
+    "s4h": "4. Who has access to your data?",
+    "s4p": "Your personal data is strictly confidential. It is not sold, rented or shared with third parties, except with competent state authorities in situations where this is explicitly required by law.",
+    "s5h": "5. Data security",
+    "s5p": "Appropriate technical and organisational security measures are implemented to prevent accidental or unlawful loss, destruction, unauthorised access or modification of your personal data.",
+    "s6h": "6. Your rights",
+    "s6intro": "At any time, you have the right to:",
+    "s6items": [
+      "<strong>Access to data:</strong> Request confirmation as to whether your data is being processed and access to the same.",
+      "<strong>Rectification and completion:</strong> Request the correction of inaccurate data.",
+      "<strong>Erasure (\"right to be forgotten\"):</strong> Request the erasure of your personal data if they are no longer necessary for the purpose for which they were collected.",
+      "<strong>Objection:</strong> Object to the processing of data."
+    ],
+    "s6p": "You may exercise all your rights by sending a request to the email address: <a href=\"mailto:sara.spence@bubamarasavjetovanje.hr\">sara.spence@bubamarasavjetovanje.hr</a>.",
+    "s7h": "7. Changes to the Privacy Policy",
+    "s7p": "This Privacy Policy may be updated periodically to remain compliant with legislative or business changes. We recommend checking this page from time to time.",
+    "updated": "Last updated: 10 September 2026"
+  },
+
+  "complaints": {
+    "title": "Complaints Procedure — Bubamara Counselling",
+    "description": "Notice on how to submit a written consumer complaint in accordance with the Consumer Protection Act.",
+    "heading": "Complaints Procedure",
+    "subheading": "Notice on how to submit a written consumer complaint",
+    "lead": "In accordance with Article 10 of the Consumer Protection Act (Official Gazette no. 19/22), I hereby inform my clients and consumers that complaints regarding the quality of my services may be submitted in writing.",
+    "sendHeading": "You may send your complaint",
+    "sendItems": [
+      "By email to: <a href=\"mailto:sara.spence@bubamarasavjetovanje.hr\">sara.spence@bubamarasavjetovanje.hr</a>",
+      "By mail/post to: Slavka Kolara 10, Velika Gorica, Croatia"
+    ],
+    "sendNote": "To help identify your complaint easily, please include your full name, contact details for receiving a reply, and a clear description of the reason for your dissatisfaction.",
+    "responseHeading": "Response timeframe",
+    "responseText": "Upon receipt of a written complaint, I will acknowledge receipt thereof in writing (by email) without undue delay, and I will reply to your complaint no later than 15 days from the date of receipt."
+  },
+
+  "notFound": {
+    "title": "Page not found — Bubamara Counselling",
+    "heading": "Page not found",
+    "text": "Unfortunately, the page you are looking for does not exist or has been moved. Check the address or return to the home page.",
+    "home": "Home"
+  },
+
+  "footer": {
+    "heading": "Contact",
+    "name": "Full name",
+    "namePlaceholder": "Your full name",
+    "email": "Email",
+    "emailPlaceholder": "you@email.com",
+    "message": "Message",
+    "messagePlaceholder": "Your message...",
+    "send": "Send message",
+    "sending": "Sending your message...",
+    "sent": "Thank you! Your message has been sent.",
+    "error": "Something went wrong. Please try again.",
+    "networkError": "Unable to send the message. Check your connection and try again.",
+    "pricing": "Pricing & Payment",
+    "privacy": "Privacy Policy",
+    "complaints": "Complaints",
+    "rights": "© 2026 Bubamara Savjetovanje. All rights reserved."
+  }
+}

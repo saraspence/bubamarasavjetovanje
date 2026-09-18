@@ -1,7 +1,9 @@
 /**
  * <site-footer> — Light DOM web component
  * Renders the full dark "Kontakt" section with contact form, info, and copyright bar.
+ * Text is Croatian by default and translated at runtime by i18n.js.
  */
+import { apply, t } from './i18n.js';
 
 const WEB3FORMS_ACCESS_KEY = '2ef90a17-bf08-4ff4-a11d-3b54760f4fb4';
 
@@ -15,7 +17,7 @@ class SiteFooter extends HTMLElement {
     this.innerHTML = `
       <div class="${sectionClass}">
         <div class="container">
-          ${isLight ? '' : '<div class="section-heading"><h2>Kontakt</h2></div>'}
+          ${isLight ? '' : '<div class="section-heading"><h2 data-i18n="footer.heading">Kontakt</h2></div>'}
 
           <div class="contact-grid">
             <form class="contact-form" novalidate>
@@ -28,19 +30,22 @@ class SiteFooter extends HTMLElement {
                 aria-hidden="true"
               >
               <div class="form-field">
-                <label for="footer-name">Ime i prezime</label>
-                <input type="text" id="footer-name" name="name" autocomplete="name" placeholder="Vaše ime i prezime" required>
+                <label for="footer-name" data-i18n="footer.name">Ime i prezime</label>
+                <input type="text" id="footer-name" name="name" autocomplete="name"
+                       placeholder="Vaše ime i prezime" data-i18n-attr="placeholder:footer.namePlaceholder" required>
               </div>
               <div class="form-field">
-                <label for="footer-email">Email</label>
-                <input type="email" id="footer-email" name="email" autocomplete="email" placeholder="vas@email.com" required>
+                <label for="footer-email" data-i18n="footer.email">Email</label>
+                <input type="email" id="footer-email" name="email" autocomplete="email"
+                       placeholder="vas@email.com" data-i18n-attr="placeholder:footer.emailPlaceholder" required>
               </div>
               <div class="form-field">
-                <label for="footer-message">Poruka</label>
-                <textarea id="footer-message" name="message" rows="5" placeholder="Vaša poruka..." required></textarea>
+                <label for="footer-message" data-i18n="footer.message">Poruka</label>
+                <textarea id="footer-message" name="message" rows="5"
+                          placeholder="Vaša poruka..." data-i18n-attr="placeholder:footer.messagePlaceholder" required></textarea>
               </div>
               <div>
-                <button type="submit" class="btn btn--primary">Pošalji poruku</button>
+                <button type="submit" class="btn btn--primary" data-i18n="footer.send">Pošalji poruku</button>
               </div>
               <div class="form-status" role="status" aria-live="polite" hidden></div>
             </form>
@@ -51,12 +56,6 @@ class SiteFooter extends HTMLElement {
                   <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
                   <span>Bubamara Savjetovanje<br>Velika Gorica</span>
                 </li>
-                <!--
-                <li>
-                  <i class="fa-solid fa-phone" aria-hidden="true"></i>
-                  <span>(000) 000-0000</span>
-                </li>
-                -->
                 <li>
                   <i class="fa-solid fa-envelope" aria-hidden="true"></i>
                   <a href="mailto:sara.spence@bubamarasavjetovanje.hr">sara.spence@bubamarasavjetovanje.hr</a>
@@ -76,21 +75,22 @@ class SiteFooter extends HTMLElement {
               </ul>
 
               <ul class="footer-links">
-                <li><a href="faq.html#pricing">Cjenik</a></li>
-                <li><a href="privacy.html">Politika privatnosti</a></li>
-                <li><a href="complaints.html">Podnošenje prigovora</a></li>
+                <li><a href="faq.html#pricing" data-i18n="footer.pricing">Cjenik</a></li>
+                <li><a href="privacy.html" data-i18n="footer.privacy">Politika privatnosti</a></li>
+                <li><a href="complaints.html" data-i18n="footer.complaints">Podnošenje prigovora</a></li>
               </ul>
             </div>
           </div>
 
           <div class="footer-bar">
-            <span>&copy; 2026 Bubamara Savjetovanje. Sva prava pridržana.</span>
+            <span data-i18n="footer.rights">&copy; 2026 Bubamara Savjetovanje. Sva prava pridržana.</span>
           </div>
         </div>
       </div>
     `;
 
     this._initContactForm();
+    apply(this); /* no-op until the dictionary has loaded; i18n.js re-applies then */
   }
 
   _initContactForm() {
@@ -122,7 +122,7 @@ class SiteFooter extends HTMLElement {
       hideStatus();
       submitBtn.disabled = true;
       submitBtn.setAttribute('aria-busy', 'true');
-      showStatus('Šaljem poruku...', null);
+      showStatus(t('footer.sending', 'Šaljem poruku...'), null);
 
       const formData = new FormData(form);
       const payload = Object.fromEntries(formData);
@@ -139,23 +139,17 @@ class SiteFooter extends HTMLElement {
           body: JSON.stringify(payload),
         });
 
-        const json = await response.json();
+        await response.json();
 
         if (response.ok) {
-          showStatus(
-            'Hvala! Vaša poruka je poslana.',
-            'success'
-          );
+          showStatus(t('footer.sent', 'Hvala! Vaša poruka je poslana.'), 'success');
           form.reset();
         } else {
-          showStatus(
-            'Došlo je do greške. Pokušajte ponovno.',
-            'error'
-          );
+          showStatus(t('footer.error', 'Došlo je do greške. Pokušajte ponovno.'), 'error');
         }
       } catch {
         showStatus(
-          'Nije moguće poslati poruku. Provjerite vezu i pokušajte ponovno.',
+          t('footer.networkError', 'Nije moguće poslati poruku. Provjerite vezu i pokušajte ponovno.'),
           'error'
         );
       } finally {

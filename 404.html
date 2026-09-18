@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      /* i18n: set <html lang> before first paint so CSS can hide the Croatian fallback for EN visitors */
+      (function () { try { var l = new URLSearchParams(location.search).get("lang") || localStorage.getItem("lang"); if (l && l !== "hr") document.documentElement.lang = l; } catch (e) {} })();
+    </script>
     <title>Stranica nije pronađena — Bubamara Savjetovanje</title>
     <meta name="robots" content="noindex" />
     <!-- served for any missing path, so resolve relative links from the site root -->
@@ -23,25 +27,26 @@
     />
     <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
-  <body>
+  <body data-page="notFound">
     <site-header></site-header>
 
     <main>
       <!-- ── PAGE HERO ─────────────────────────────────────────────────── -->
       <div class="page-hero">
-        <h1>Stranica nije pronađena</h1>
-        <p>
+        <h1 data-i18n="notFound.heading">Stranica nije pronađena</h1>
+        <p data-i18n="notFound.text">
           Nažalost, stranica koju tražite ne postoji ili je premještena.
           Provjerite adresu ili se vratite na naslovnicu.
         </p>
         <p style="margin-top: 2rem">
-          <a class="btn btn--primary" href="/">Naslovna</a>
+          <a class="btn btn--primary" href="/" data-i18n="notFound.home">Naslovna</a>
         </p>
       </div>
     </main>
 
     <site-footer light></site-footer>
 
+    <script src="/assets/js/i18n.js" type="module"></script>
     <script src="/assets/js/site-header.js" type="module"></script>
     <script src="/assets/js/site-footer.js" type="module"></script>
   </body>

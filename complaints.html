@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      /* i18n: set <html lang> before first paint so CSS can hide the Croatian fallback for EN visitors */
+      (function () { try { var l = new URLSearchParams(location.search).get("lang") || localStorage.getItem("lang"); if (l && l !== "hr") document.documentElement.lang = l; } catch (e) {} })();
+    </script>
     <title>Podnošenje prigovora — Bubamara Savjetovanje</title>
     <meta
       name="description"
@@ -24,28 +28,28 @@
     />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
-  <body>
+  <body data-page="complaints">
     <site-header></site-header>
 
     <main>
       <!-- ── PAGE HERO ─────────────────────────────────────────────────── -->
       <div class="page-hero">
-        <h1>Podnošenje prigovora</h1>
-        <p>Obavijest o načinu podnošenja pisanog prigovora potrošača</p>
+        <h1 data-i18n="complaints.heading">Podnošenje prigovora</h1>
+        <p data-i18n="complaints.subheading">Obavijest o načinu podnošenja pisanog prigovora potrošača</p>
       </div>
 
       <!-- ── CONTENT ───────────────────────────────────────────────────── -->
       <section class="section section--alt">
         <div class="container">
           <div class="legal">
-            <p class="legal__lead">
+            <p class="legal__lead" data-i18n="complaints.lead">
               Sukladno članku 10. Zakona o zaštiti potrošača („Narodne novine“,
               br. 19/22), obavještavam svoje klijente i potrošače da prigovor na
               kvalitetu mojih usluga mogu podnijeti u pisanom obliku.
             </p>
 
-            <h2>Prigovor možete poslati</h2>
-            <ul>
+            <h2 data-i18n="complaints.sendHeading">Prigovor možete poslati</h2>
+            <ul data-i18n-list="complaints.sendItems">
               <li>
                 Putem e-mail adrese:
                 <a href="mailto:sara.spence@bubamarasavjetovanje.hr"
@@ -54,14 +58,14 @@
               </li>
               <li>Putem pošte na adresu: Slavka Kolara 10, Velika Gorica</li>
             </ul>
-            <p>
+            <p data-i18n="complaints.sendNote">
               Radi lakše identifikacije prigovora, molimo vas da u prigovoru
               navedete svoje ime i prezime, kontakt podatke za dostavu odgovora
               te jasan opis razloga nezadovoljstva.
             </p>
 
-            <h2>Rok za odgovor</h2>
-            <p>
+            <h2 data-i18n="complaints.responseHeading">Rok za odgovor</h2>
+            <p data-i18n="complaints.responseText">
               Po primitku pisanog prigovora, potvrdit ću njegov primitak bez
               odgađanja pisanim putem (e-mailom), a na vaš prigovor ću odgovoriti
               najkasnije u roku od 15 dana od dana zaprimanja prigovora.
@@ -73,6 +77,7 @@
 
     <site-footer></site-footer>
 
+    <script src="assets/js/i18n.js" type="module"></script>
     <script src="assets/js/site-header.js" type="module"></script>
     <script src="assets/js/site-footer.js" type="module"></script>
   </body>

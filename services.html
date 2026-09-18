@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      /* i18n: set <html lang> before first paint so CSS can hide the Croatian fallback for EN visitors */
+      (function () { try { var l = new URLSearchParams(location.search).get("lang") || localStorage.getItem("lang"); if (l && l !== "hr") document.documentElement.lang = l; } catch (e) {} })();
+    </script>
     <title>Usluge — Bubamara Savjetovanje</title>
     <meta
       name="description"
@@ -24,17 +28,17 @@
     />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
-  <body>
+  <body data-page="services">
     <site-header></site-header>
 
     <main>
       <!-- ── PAGE HERO ─────────────────────────────────────────────────── -->
       <div class="page-hero">
-        <h1>Usluge</h1>
-        <p>Individualizirani pristup Vašim potrebama i ciljevima</p>
+        <h1 data-i18n="services.heading">Usluge</h1>
+        <p data-i18n="services.subheading">Individualizirani pristup Vašim potrebama i ciljevima</p>
       </div>
 
-      <!-- ── SERVICE 1: LIFE TRANSITIONS ──────────────────────────────── -->
+      <!-- ── SERVICE 1: LIFE GOALS ────────────────────────────────────── -->
       <section class="section section--alt" aria-labelledby="goals-heading">
         <div class="container">
           <div class="spotlight">
@@ -46,11 +50,10 @@
               />
             </div>
             <div class="spotlight__content">
-              <!-- <span class="eyebrow">Usluga 1</span> -->
-              <h2 id="goals-heading">Životni ciljevi, navike i karijera</h2>
+              <h2 id="goals-heading" data-i18n="services.goals.heading">Životni ciljevi, navike i karijera</h2>
 
               <div class="service-detail">
-                <ul>
+                <ul data-i18n-list="services.goals.items">
                   <li>
                     Definiranje i razrada planova za postizanje kratkoročnih i
                     dugoročnih ciljeva u bilo kojoj domeni života
@@ -78,13 +81,13 @@
                 </ul>
               </div>
 
-              <a href="contact.html" class="spotlight__link">Zakaži razgovor</a>
+              <a href="contact.html" class="spotlight__link" data-i18n="services.cta">Zakaži razgovor</a>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- ── SERVICE 2: SPIRITUAL / ENERGETIC ─────────────────────────── -->
+      <!-- ── SERVICE 2: LIFE TRANSITIONS ──────────────────────────────── -->
       <section class="section" aria-labelledby="transitions-heading">
         <div class="container">
           <div class="spotlight spotlight--reverse">
@@ -96,13 +99,12 @@
               />
             </div>
             <div class="spotlight__content">
-              <!-- <span class="eyebrow">Usluga 2</span> -->
-              <h2 id="transitions-heading">
+              <h2 id="transitions-heading" data-i18n="services.transitions.heading">
                 Navigiranje životnih promjena i tranzicija
               </h2>
 
               <div class="service-detail">
-                <ul>
+                <ul data-i18n-list="services.transitions.items">
                   <li>
                     Podrška tijekom zahtjevnih životnih promjena i događaja
                     (poput bolesti, raskida veza i odnosa, promjena karijere,
@@ -120,13 +122,13 @@
                 </ul>
               </div>
 
-              <a href="contact.html" class="spotlight__link">Zakaži razgovor</a>
+              <a href="contact.html" class="spotlight__link" data-i18n="services.cta">Zakaži razgovor</a>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- ── SERVICE 3: PERSONAL DEVELOPMENT ──────────────────────────────── -->
+      <!-- ── SERVICE 3: PERSONAL DEVELOPMENT ──────────────────────────── -->
       <section
         class="section section--alt"
         aria-labelledby="personal-development-heading"
@@ -141,13 +143,12 @@
               />
             </div>
             <div class="spotlight__content">
-              <!-- <span class="eyebrow">Usluga 3</span> -->
-              <h2 id="personal-development-heading">
+              <h2 id="personal-development-heading" data-i18n="services.personal.heading">
                 Osobni razvoj i bolje upoznavanje sebe
               </h2>
 
               <div class="service-detail">
-                <ul>
+                <ul data-i18n-list="services.personal.items">
                   <li>
                     Prepoznavanje i razumijevanje vlastitih unutarnjih prepreka,
                     ograničavajućih obrazaca razmišljanja i nepoželjnih
@@ -177,7 +178,7 @@
                 </ul>
               </div>
 
-              <a href="contact.html" class="spotlight__link">Zakaži razgovor</a>
+              <a href="contact.html" class="spotlight__link" data-i18n="services.cta">Zakaži razgovor</a>
             </div>
           </div>
         </div>
@@ -195,16 +196,15 @@
               />
             </div>
             <div class="spotlight__content">
-              <!-- <span class="eyebrow">Usluga 4</span> -->
-              <h2 id="spiritual-heading">Podrška u duhovno-energetskom radu</h2>
+              <h2 id="spiritual-heading" data-i18n="services.spiritual.heading">Podrška u duhovno-energetskom radu</h2>
 
               <div class="service-detail">
-                <p>
+                <p data-i18n="services.spiritual.intro">
                   Znanost je zadnjih desetljeća počela povezivati duhovna učenja
                   sa znanstveno dokazanim principima i konceptima. Jeste li
                   ikada pomislili:
                 </p>
-                <ul>
+                <ul data-i18n-list="services.spiritual.items">
                   <li>Što točno znači prosvjetljenje? Kako ga postići?</li>
                   <li>
                     Kako da podignem svoju vibracijsku razinu trajno i u
@@ -236,7 +236,7 @@
                     Kako da znam prepoznati razliku?
                   </li>
                 </ul>
-                <p>
+                <p data-i18n="services.spiritual.outro">
                   Ovo su samo neka od pitanja koja se mogu javiti na putu
                   osobnog duhovnog razvoja. Ako se osjećate kao da ste "zapeli"
                   na nekom od koraka svog puta, ovdje sam da vam pomognem. Kroz
@@ -249,7 +249,7 @@
                 </p>
               </div>
 
-              <a href="contact.html" class="spotlight__link">Zakaži razgovor</a>
+              <a href="contact.html" class="spotlight__link" data-i18n="services.cta">Zakaži razgovor</a>
             </div>
           </div>
         </div>
@@ -267,13 +267,12 @@
               />
             </div>
             <div class="spotlight__content">
-              <!-- <span class="eyebrow">Usluga 5</span> -->
-              <h2 id="reiki-heading">
+              <h2 id="reiki-heading" data-i18n="services.reiki.heading">
                 Reiki Holy Fire III - energetsko iscjeljivanje
               </h2>
 
               <div class="service-detail">
-                <p>
+                <p data-i18n="services.reiki.intro">
                   Reiki Holy Fire III je nježan, ali iznimno snažan oblik
                   energetskog iscjeljivanja, poznat po svojim duboko
                   pročišćavajućim, njegujućim i transformativnim svojstvima.
@@ -284,7 +283,7 @@
                   u skladu s našim vlastitim ritmom. S obzirom na to, može vam
                   pomoći ako:
                 </p>
-                <ul>
+                <ul data-i18n-list="services.reiki.items">
                   <li>
                     tražite emocionalno olakšanje, uzemljenje ili smirenje
                   </li>
@@ -305,7 +304,7 @@
                     želite podići svoju vibraciju i osjećati se usklađenije
                   </li>
                 </ul>
-                <p>
+                <p data-i18n="services.reiki.outro">
                   Budući da je Reiki sam po sebi inteligentna energija, on
                   uvijek djeluje onako kako je u tom trenutku najbolje za vas.
                   Može vam pomoći da se osjećate opuštenije i odmornije, ili
@@ -314,61 +313,103 @@
                 </p>
               </div>
 
-              <a href="contact.html" class="spotlight__link">Zakaži tretman</a>
+              <a href="contact.html" class="spotlight__link" data-i18n="services.ctaReiki">Zakaži tretman</a>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- ── PRICING ──────────────────────────────────────────────────── -->
-      <section class="section" aria-labelledby="pricing-heading">
-        <div class="container">
-          <div class="faq-cta faq-cta--flush">
-            <h2 id="pricing-heading">Cjenik</h2>
-            <p>
-              Cijene susreta i Reiki tretmana te uvjeti plaćanja i otkazivanja.
-            </p>
-            <a href="faq.html#pricing" class="btn btn--primary"
-              >Pogledajte cjenik</a
-            >
-          </div>
-        </div>
-      </section>
+      <!-- ── SERVICE 6: RELAXATION GROUPS ─────────────────────────────── -->
+      <!-- HIDDEN for now at Sara's request (18 Sep 2026). To re-enable: remove the
+           comment wrapping this block and switch the pricing section back to "section section--alt".
+           Translations are kept in assets/i18n/*.json under services.relax.* (the Croatian
+           text is a draft translated from English – needs review before publishing).
 
-      <!-- TODO: replace sections below with real content when available -->
-      <!--
-      <section class="section section--alt">
+            <section class="section" aria-labelledby="relax-heading">
         <div class="container">
-          <h3>Lorem ipsum dolor</h3>
-          <p>
-            Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis.
-            Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor...
-          </p>
-          <p>
-            Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet...
-          </p>
-          <h3>Vitae phasellus</h3>
-          <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat...
-          </p>
-          <div class="service-cards">
-            <div class="service-card">
-              <h3>Sed feugiat lorem</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+          <div class="spotlight spotlight--reverse">
+            <div class="spotlight__image">
+              <img
+                src="./assets/images/naslovna1.jpg"
+                alt="Priroda i spokojstvo"
+                loading="lazy"
+              />
             </div>
-            <div class="service-card">
-              <h3>Nisl placerat</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+            <div class="spotlight__content">
+              <h2 id="relax-heading" data-i18n="services.relax.heading">Grupe za relaksaciju</h2>
+
+              <div class="service-detail">
+                <p data-i18n="services.relax.p1">
+                  Istraživanja pokazuju da redovito prakticiranje tehnika
+                  relaksacije smanjuje utjecaj stresa te povećava fokus,
+                  smirenost i osjećaj dobrobiti. Također nam pomaže lakše
+                  primijetiti što se događa u nama, što može biti ključno za
+                  snalaženje u različitim situacijama i postizanje ciljeva (čak
+                  i ako je taj cilj „samo“ osjećati se dobro).
+                </p>
+                <p data-i18n="services.relax.p2">
+                  Ove grupe osmišljene su kako biste izdvojili vrijeme za sebe
+                  te naučili i vježbali različite tehnike relaksacije. Vođena
+                  relaksacija može na svakom susretu izgledati malo drugačije,
+                  no njezin glavni cilj uvijek ostaje isti: smiriti živčani
+                  sustav, otpustiti napetost i umiriti um. Time svoj sustav
+                  vraćamo u „ovdje i sada“ i dajemo mu prijeko potreban odmor
+                  od svakodnevice.
+                </p>
+                <p data-i18n="services.relax.sessionsIntro">
+                  Susreti se održavaju online, traju otprilike 30 minuta i
+                  sastoje se od:
+                </p>
+                <ul data-i18n-list="services.relax.sessionItems">
+                  <li>kratkog uvoda i smještanja</li>
+                  <li>vježbe relaksacije (20 minuta)</li>
+                  <li>završnog razgovora s prostorom za pitanja i komentare</li>
+                </ul>
+                <p><strong data-i18n="services.relax.needHeading">Što vam je potrebno za sudjelovanje?</strong></p>
+                <ul data-i18n-list="services.relax.needItems">
+                  <li>uređaj na kojem radi Google Meet</li>
+                  <li>
+                    miran prostor i vrijeme bez prekidanja u kojem se zaista
+                    možete opustiti
+                  </li>
+                  <li>
+                    nije potrebno nikakvo predznanje ni iskustvo – sve vježbe su
+                    u potpunosti vođene kako biste se mogli duboko opustiti i
+                    prepustiti iskustvu
+                  </li>
+                </ul>
+                <p data-i18n="services.relax.closing">
+                  Jeste li spremni učiniti nešto dobro za sebe – a time i za sve
+                  oko sebe?
+                </p>
+              </div>
+
+              <a href="contact.html" class="spotlight__link" data-i18n="services.ctaRelax">Prijavi se u grupu</a>
             </div>
           </div>
         </div>
       </section>
       -->
-      <!-- end TODO -->
+
+      <!-- ── PRICING ──────────────────────────────────────────────────── -->
+      <section class="section" aria-labelledby="pricing-heading">
+        <div class="container">
+          <div class="faq-cta faq-cta--flush">
+            <h2 id="pricing-heading" data-i18n="services.pricingHeading">Cjenik</h2>
+            <p data-i18n="services.pricingText">
+              Cijene susreta i Reiki tretmana te uvjeti plaćanja i otkazivanja.
+            </p>
+            <a href="faq.html#pricing" class="btn btn--primary" data-i18n="services.pricingCta"
+              >Pogledajte cjenik</a
+            >
+          </div>
+        </div>
+      </section>
     </main>
 
     <site-footer></site-footer>
 
+    <script src="assets/js/i18n.js" type="module"></script>
     <script src="assets/js/site-header.js" type="module"></script>
     <script src="assets/js/site-footer.js" type="module"></script>
   </body>

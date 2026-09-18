@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      /* i18n: set <html lang> before first paint so CSS can hide the Croatian fallback for EN visitors */
+      (function () { try { var l = new URLSearchParams(location.search).get("lang") || localStorage.getItem("lang"); if (l && l !== "hr") document.documentElement.lang = l; } catch (e) {} })();
+    </script>
     <title>Politika privatnosti — Bubamara Savjetovanje</title>
     <meta
       name="description"
@@ -24,49 +28,49 @@
     />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
-  <body>
+  <body data-page="privacy">
     <site-header></site-header>
 
     <main>
       <!-- ── PAGE HERO ─────────────────────────────────────────────────── -->
       <div class="page-hero">
-        <h1>Politika privatnosti</h1>
+        <h1 data-i18n="privacy.heading">Politika privatnosti</h1>
       </div>
 
       <!-- ── CONTENT ───────────────────────────────────────────────────── -->
       <section class="section section--alt">
         <div class="container">
           <div class="legal">
-            <p class="legal__lead">
+            <p class="legal__lead" data-i18n="privacy.lead">
               Ova Politika privatnosti objašnjava kako Bubamara savjetovanje,
               Slavka Kolara 10, Velika Gorica, OIB 37702159237 prikuplja,
               obrađuje i štiti vaše osobne podatke kada posjetite web stranicu
               bubamarasavjetovanje.hr ili me kontaktirate.
             </p>
-            <p>
+            <p data-i18n="privacy.intro">
               Zaštita vaših osobnih podataka iznimno mi je važna. Molim vas da
               pažljivo pročitate ovu Politiku privatnosti kako biste saznali
               koji podaci se prikupljaju i u koje svrhe se koriste.
             </p>
 
-            <h2>1. Koji osobni podaci se prikupljaju?</h2>
-            <p>
+            <h2 data-i18n="privacy.s1h">1. Koji osobni podaci se prikupljaju?</h2>
+            <p data-i18n="privacy.s1p1">
               Putem web stranice prikupljaju se samo oni osobni podatci koje mi
               vi dobrovoljno stavite na raspolaganje putem kontakt forme ili
               direktnog e-maila: ime i prezime, e-mail adresa, telefonski broj
               te sadržaj poruke/upita koji pošaljete.
             </p>
-            <p>
+            <p data-i18n="privacy.s1p2">
               Budući da moja web stranica ne koristi kolačiće (cookies) za
               praćenje korisnika niti alate za web statistiku, ne prikupljaju se
               automatski tehnički podatci o vašem pregledavanju.
             </p>
 
-            <h2>2. Svrha i pravna osnova obrade podataka</h2>
-            <p>
+            <h2 data-i18n="privacy.s2h">2. Svrha i pravna osnova obrade podataka</h2>
+            <p data-i18n="privacy.s2intro">
               Vaši osobni podatci prikupljaju se i obrađuju u sljedeće svrhe:
             </p>
-            <ul>
+            <ul data-i18n-list="privacy.s2items">
               <li>
                 <strong>Odgovaranje na vaše upite:</strong> Kada me kontaktirate
                 s upitom o uslugama koje nudim, vaše podatke obrađujem kako bih
@@ -80,8 +84,8 @@
               </li>
             </ul>
 
-            <h2>3. Koliko dugo se čuvaju vaši podatci?</h2>
-            <ul>
+            <h2 data-i18n="privacy.s3h">3. Koliko dugo se čuvaju vaši podatci?</h2>
+            <ul data-i18n-list="privacy.s3items">
               <li>
                 <strong>Upiti bez naknadne suradnje:</strong> Podaci poslani
                 putem kontakt forme koji ne rezultiraju sklapanjem usluge čuvaju
@@ -96,25 +100,25 @@
               </li>
             </ul>
 
-            <h2>4. Tko ima pristup vašim podacima?</h2>
-            <p>
+            <h2 data-i18n="privacy.s4h">4. Tko ima pristup vašim podacima?</h2>
+            <p data-i18n="privacy.s4p">
               Vaši osobni podaci strogo su povjerljivi. Oni se ne prodaju,
               iznajmljuju niti dijele s trećim stranama, osim s nadležnim
               državnim tijelima u situacijama kada je to izričito propisano
               zakonom.
             </p>
 
-            <h2>5. Sigurnost podataka</h2>
-            <p>
+            <h2 data-i18n="privacy.s5h">5. Sigurnost podataka</h2>
+            <p data-i18n="privacy.s5p">
               Poduzimaju se sve odgovarajuće tehničke i organizacijske mjere
               zaštite kako bi se spriječio slučajni ili nezakoniti gubitak,
               uništavanje, neovlašteni pristup ili izmjena vaših osobnih
               podataka.
             </p>
 
-            <h2>6. Vaša prava</h2>
-            <p>U svakom trenutku imate pravo na:</p>
-            <ul>
+            <h2 data-i18n="privacy.s6h">6. Vaša prava</h2>
+            <p data-i18n="privacy.s6intro">U svakom trenutku imate pravo na:</p>
+            <ul data-i18n-list="privacy.s6items">
               <li>
                 <strong>Pristup podacima:</strong> Zatražiti potvrdu obrađuju li
                 se vaši podatci te uvid u iste.
@@ -132,7 +136,7 @@
                 <strong>Prigovor:</strong> Uložiti prigovor na obradu podataka.
               </li>
             </ul>
-            <p>
+            <p data-i18n-html="privacy.s6p">
               Sva svoja prava možete ostvariti slanjem zahtjeva na e-mail
               adresu:
               <a href="mailto:sara.spence@bubamarasavjetovanje.hr"
@@ -140,14 +144,14 @@
               >.
             </p>
 
-            <h2>7. Izmjene Politike privatnosti</h2>
-            <p>
+            <h2 data-i18n="privacy.s7h">7. Izmjene Politike privatnosti</h2>
+            <p data-i18n="privacy.s7p">
               Ova Politika privatnosti se može povremeno ažurirati kako bi bila
               usklađena s promjenama u zakonodavstvu ili poslovanju.
               Preporučujemo da s vremena na vrijeme provjerite ovu stranicu.
             </p>
 
-            <p class="legal__updated">
+            <p class="legal__updated" data-i18n="privacy.updated">
               Posljednji put ažurirano: 10. rujan 2026.
             </p>
           </div>
@@ -157,6 +161,7 @@
 
     <site-footer></site-footer>
 
+    <script src="assets/js/i18n.js" type="module"></script>
     <script src="assets/js/site-header.js" type="module"></script>
     <script src="assets/js/site-footer.js" type="module"></script>
   </body>

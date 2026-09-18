@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      /* i18n: set <html lang> before first paint so CSS can hide the Croatian fallback for EN visitors */
+      (function () { try { var l = new URLSearchParams(location.search).get("lang") || localStorage.getItem("lang"); if (l && l !== "hr") document.documentElement.lang = l; } catch (e) {} })();
+    </script>
     <title>Bubamara Savjetovanje — Za život koji voliš!</title>
     <meta
       name="description"
@@ -56,16 +60,16 @@
     />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
-  <body>
+  <body data-page="home">
     <site-header></site-header>
 
     <main>
       <!-- ── HERO ─────────────────────────────────────────────────────── -->
-      <!--  background-image: url(&quot;https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1920&q=80&quot;); -->
       <section
         class="hero"
         style="background-image: url(&quot;./assets/images/bg.jpg&quot;)"
         aria-label="Naslovni banner"
+        data-i18n-attr="aria-label:home.heroAria"
       >
         <div class="hero__content">
           <img
@@ -74,8 +78,8 @@
             class="hero__logo"
             onerror="this.style.display = 'none'"
           />
-          <h1 class="hero__title">Bubamara Savjetovanje</h1>
-          <h2 class="hero__tagline">Za život koji voliš!</h2>
+          <h1 class="hero__title" data-i18n="home.heroTitle">Bubamara Savjetovanje</h1>
+          <h2 class="hero__tagline" data-i18n="home.heroTagline">Za život koji voliš!</h2>
         </div>
       </section>
 
@@ -91,11 +95,10 @@
               />
             </div>
             <div class="spotlight__content">
-              <!-- <span class="eyebrow">Savjetovanje</span> -->
-              <h2 id="intro-heading">
+              <h2 id="intro-heading" data-i18n="home.introHeading">
                 Savjetovanje za osobni razvoj i kvalitetu života
               </h2>
-              <p>
+              <p data-i18n="home.introP1">
                 Svijet u kojem živimo, drastično se promijenio unazad nekoliko
                 desetljeća. Postizanje kvalitete života kakvu želimo imati
                 postaje sve izazovnije, a osobni razvoj sve važniji kako bismo
@@ -105,7 +108,7 @@
                 stresom, ali i one značajnije i „veće“, poput životnih
                 tranzicija, izazova i promjena.
               </p>
-              <p>
+              <p data-i18n="home.introP2">
                 Moja je želja biti Vam podrška i pomoć na putu samo-otkrivenja i
                 izgradnje sebe u onu osobu koja živi autentičan i ispunjen život
                 kakav želite. Kroz prostor povjerenja, sigurnosti i potpunog
@@ -127,27 +130,21 @@
                 alt="Sara Spence"
                 loading="lazy"
               />
-              <!-- <img
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80"
-                alt="Sara Spence"
-                loading="lazy"
-              /> -->
             </div>
             <div class="spotlight__content">
-              <!-- <span class="eyebrow">O meni</span> -->
-              <h2 id="about-heading">Sara Spence</h2>
-              <p>
+              <h2 id="about-heading" data-i18n="home.aboutHeading">Sara Spence</h2>
+              <p data-i18n="home.aboutP1">
                 Ja sam Sara Spence, po struci psiholog i životni trener (Life
                 coach). Kroz vlastito iskustvo suočavanja s izazovnim životnim
                 situacijama, naučila sam kako prepreke pretvoriti u prilike za
                 rast i ponovno pronaći sebe u novim okolnostima.
               </p>
-              <p>
+              <p data-i18n="home.aboutP2">
                 Moj glavni cilj je iskoristiti sva znanja, iskustva i metode
                 koje sam usavršila kako bih Vas podržala u ostvarenju Vaših
                 najvećih potencijala i izgradnji života koji volite živjeti.
               </p>
-              <a href="about.html" class="spotlight__link"
+              <a href="about.html" class="spotlight__link" data-i18n="home.aboutLink"
                 >Saznajte više o meni</a
               >
             </div>
@@ -159,12 +156,12 @@
       <section class="section section--alt" aria-labelledby="services-heading">
         <div class="container">
           <div class="section-heading">
-            <h2 id="services-heading">Usluge</h2>
+            <h2 id="services-heading" data-i18n="home.servicesHeading">Usluge</h2>
           </div>
           <div class="service-cards">
             <div class="service-card">
-              <h3>Životni ciljevi, navike i karijera</h3>
-              <ul>
+              <h3 data-i18n="home.card1Title">Životni ciljevi, navike i karijera</h3>
+              <ul data-i18n-list="home.card1Items">
                 <li>Definiranje i razrada planova za postizanje ciljeva</li>
                 <li>Pronalazak životne svrhe i željenog smjera u životu</li>
                 <li>
@@ -175,8 +172,8 @@
               </ul>
             </div>
             <div class="service-card">
-              <h3>Navigiranje životnih promjena i tranzicija</h3>
-              <ul>
+              <h3 data-i18n="home.card2Title">Navigiranje životnih promjena i tranzicija</h3>
+              <ul data-i18n-list="home.card2Items">
                 <li>Podrška tijekom zahtjevnih životnih promjena i događaja</li>
                 <li>Procesiranje događaja, emocija i razmišljanja</li>
                 <li>
@@ -187,7 +184,7 @@
             </div>
           </div>
           <div style="text-align: center; margin-top: 2.5rem">
-            <a href="services.html" class="btn btn--primary">Sve usluge</a>
+            <a href="services.html" class="btn btn--primary" data-i18n="home.allServices">Sve usluge</a>
           </div>
         </div>
       </section>
@@ -195,6 +192,7 @@
 
     <site-footer></site-footer>
 
+    <script src="assets/js/i18n.js" type="module"></script>
     <script src="assets/js/site-header.js" type="module"></script>
     <script src="assets/js/site-footer.js" type="module"></script>
   </body>

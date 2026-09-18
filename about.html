@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      /* i18n: set <html lang> before first paint so CSS can hide the Croatian fallback for EN visitors */
+      (function () { try { var l = new URLSearchParams(location.search).get("lang") || localStorage.getItem("lang"); if (l && l !== "hr") document.documentElement.lang = l; } catch (e) {} })();
+    </script>
     <title>O meni — Bubamara Savjetovanje</title>
     <meta name="description" content="Sara Spence, mag. psihologije i životni trener. Saznajte više o mom pristupu i obrazovanju." />
 
@@ -21,7 +25,7 @@
     />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
-  <body>
+  <body data-page="about">
 
     <site-header></site-header>
 
@@ -29,8 +33,7 @@
 
       <!-- ── PAGE HERO ─────────────────────────────────────────────────── -->
       <div class="page-hero">
-        <h1>O meni</h1>
-        <!-- <p>Sara Spence, mag. psihologije i životni trener (Life coach)</p> -->
+        <h1 data-i18n="about.heading">O meni</h1>
       </div>
 
       <!-- ── BIO ───────────────────────────────────────────────────────── -->
@@ -39,29 +42,24 @@
           <div class="bio">
             <div class="bio__image">
               <img
-                src="./assets/images/sara.jpg""
+                src="./assets/images/sara.jpg"
                 alt="Sara Spence"
                 loading="lazy"
               />
-              <!-- <img
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
-                alt="Sara Spence"
-                loading="lazy"
-              /> -->
             </div>
             <div class="bio__text">
-              <h2 id="bio-heading">Sara Spence</h2>
-              <p class="bio__meta">mag. psihologije i životni trener (Life coach)</p>
+              <h2 id="bio-heading" data-i18n="about.bioHeading">Sara Spence</h2>
+              <p class="bio__meta" data-i18n="about.bioMeta">mag. psihologije i životni trener (Life coach)</p>
 
-              <p>
-                Ja sam Sara Spence, po struci psiholog i životni trener (Life coach). Kroz sam prošla brojne izazove i prepreke koje su me oblikovali u osobu kakva sam danas. Prošla sam preseljenje u drugu državu, gubitak supruga početkom 2017. godine, bolest i gubitak majke te povratak u Hrvatsku nakon šest godina života u inozemstvu. Kako bih se nosila s izazovima i promjenama, morala sam naučiti gledati prepreke kao prilike za rast. Trebala sam se ponovno povezati sa sobom, svojim potrebama i emocijama te izgraditi sebe iznova, u potpuno novim okolnostima. 
+              <p data-i18n="about.bioP1">
+                Ja sam Sara Spence, po struci psiholog i životni trener (Life coach). Kroz sam prošla brojne izazove i prepreke koje su me oblikovali u osobu kakva sam danas. Prošla sam preseljenje u drugu državu, gubitak supruga početkom 2017. godine, bolest i gubitak majke te povratak u Hrvatsku nakon šest godina života u inozemstvu. Kako bih se nosila s izazovima i promjenama, morala sam naučiti gledati prepreke kao prilike za rast. Trebala sam se ponovno povezati sa sobom, svojim potrebama i emocijama te izgraditi sebe iznova, u potpuno novim okolnostima.
               </p>
 
-              <p>
+              <p data-i18n="about.bioP2">
                 Naučiti voljeti sebe, i postati sama sebi najbolji prijatelj, roditelj i podrška, bio je najteži izazov, ali i najveći dar koji sam si ikada mogla dati. Kroz svoj osobni put, uvidjela sam vrijednost rada na sebi, ne samo za mene i moj život, već i za druge u mojoj okolini.
               </p>
 
-              <p>
+              <p data-i18n="about.bioP3">
                 Danas želim iskoristiti sva znanja i iskustva koja sam stekla kako bih vas podržala u ostvarenju vaših potencijala i izgradnji života koji volite živjeti. U srži mog rada jest razumijevanje, poštovanje i izgradnja sigurnog prostora za istraživanje i rad. Duboko vjerujem da je svatko od nas sposoban za promjenu te da smo mi sami najbolji resurs za vlastiti život. Čak i uz to, ponekad nam je potrebna podrška. Zato ne nudim gotova rješenja - već vam pomažem pronaći upravo ona koja su najbolja za vas. Svoj pristup i metode prilagođavam upravo vašim jedinstvenim potrebama i karakteristikama, bilo da se radi o znanstveno utemeljenim praksama i principima, ili onima koja spajaju duhovnost sa znanošću.
               </p>
 
@@ -74,12 +72,13 @@
       <section class="section" aria-labelledby="video-heading">
         <div class="container">
           <div class="section-heading">
-            <h2 id="video-heading">Upoznajte me</h2>
+            <h2 id="video-heading" data-i18n="about.videoHeading">Upoznajte me</h2>
           </div>
           <div class="video-embed">
             <iframe
               src="https://www.youtube.com/embed/cDAO68almkQ"
               title="Sara Spence – video"
+              data-i18n-attr="title:about.videoTitle"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
@@ -92,10 +91,10 @@
       <section class="section section--alt" aria-labelledby="cert-heading">
         <div class="container">
           <div class="section-heading">
-            <h2 id="cert-heading">Edukacije, certifikati i prakse</h2>
+            <h2 id="cert-heading" data-i18n="about.certHeading">Edukacije, certifikati i prakse</h2>
           </div>
 
-          <ul class="cert-list">
+          <ul class="cert-list" data-i18n-list="about.certs">
             <li>2011. Magistra psihologije, Filozofski fakultet Sveučilišta u Zagrebu</li>
             <li>2014. – 2020. Život i rad u Velikoj Britaniji</li>
             <li>2018. nadalje – praksa joge, meditacije, plesa, itd.</li>
@@ -136,6 +135,7 @@
 
     <site-footer></site-footer>
 
+    <script src="assets/js/i18n.js" type="module"></script>
     <script src="assets/js/site-header.js" type="module"></script>
     <script src="assets/js/site-footer.js" type="module"></script>
   </body>

@@ -1,0 +1,325 @@
+{
+  "meta": { "code": "hr", "name": "Hrvatski" },
+
+  "nav": {
+    "home": "Naslovna",
+    "about": "O meni",
+    "services": "Usluge",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "openMenu": "Otvori izbornik",
+    "closeMenu": "Zatvori izbornik",
+    "menu": "Izbornik",
+    "mainNav": "Glavna navigacija",
+    "logoAria": "Bubamara Savjetovanje – početna",
+    "language": "Jezik"
+  },
+
+  "home": {
+    "title": "Bubamara Savjetovanje — Za život koji voliš!",
+    "description": "Savjetovanje za osobni razvoj i kvalitetu života. Sara Spence, mag. psihologije i životni trener.",
+    "heroAria": "Naslovni banner",
+    "heroTitle": "Bubamara Savjetovanje",
+    "heroTagline": "Za život koji voliš!",
+    "introHeading": "Savjetovanje za osobni razvoj i kvalitetu života",
+    "introP1": "Svijet u kojem živimo, drastično se promijenio unazad nekoliko desetljeća. Postizanje kvalitete života kakvu želimo imati postaje sve izazovnije, a osobni razvoj sve važniji kako bismo postigli svoje maksimume i ostvarili svoje potencijale. Na tom putu, svima nam ponekad zatreba pomoć. To mogu biti „male“ stvari, poput stvaranja navika za zdraviji život i nošenje sa stresom, ali i one značajnije i „veće“, poput životnih tranzicija, izazova i promjena.",
+    "introP2": "Moja je želja biti Vam podrška i pomoć na putu samo-otkrivenja i izgradnje sebe u onu osobu koja živi autentičan i ispunjen život kakav želite. Kroz prostor povjerenja, sigurnosti i potpunog poštivanja Vaše individualnosti, želim Vas podržati u postizanju onoga što je upravo Vama najvažnije.",
+    "aboutHeading": "Sara Spence",
+    "aboutP1": "Ja sam Sara Spence, po struci psiholog i životni trener (Life coach). Kroz vlastito iskustvo suočavanja s izazovnim životnim situacijama, naučila sam kako prepreke pretvoriti u prilike za rast i ponovno pronaći sebe u novim okolnostima.",
+    "aboutP2": "Moj glavni cilj je iskoristiti sva znanja, iskustva i metode koje sam usavršila kako bih Vas podržala u ostvarenju Vaših najvećih potencijala i izgradnji života koji volite živjeti.",
+    "aboutLink": "Saznajte više o meni",
+    "servicesHeading": "Usluge",
+    "card1Title": "Životni ciljevi, navike i karijera",
+    "card1Items": [
+      "Definiranje i razrada planova za postizanje ciljeva",
+      "Pronalazak životne svrhe i željenog smjera u životu",
+      "Razvoj strategija za rješavanje problema i donošenje odluka",
+      "Razvoj vještina prezentacije na tržištu rada",
+      "Razvoj navika za poboljšanje zdravlja i dobrobiti"
+    ],
+    "card2Title": "Navigiranje životnih promjena i tranzicija",
+    "card2Items": [
+      "Podrška tijekom zahtjevnih životnih promjena i događaja",
+      "Procesiranje događaja, emocija i razmišljanja",
+      "Prepoznavanje novih mogućnosti unutar postojećih okolnosti",
+      "Razvoj otpornosti i novih načina prilagodbe"
+    ],
+    "allServices": "Sve usluge"
+  },
+
+  "about": {
+    "title": "O meni — Bubamara Savjetovanje",
+    "description": "Sara Spence, mag. psihologije i životni trener. Saznajte više o mom pristupu i obrazovanju.",
+    "heading": "O meni",
+    "bioHeading": "Sara Spence",
+    "bioMeta": "mag. psihologije i životni trener (Life coach)",
+    "bioP1": "Ja sam Sara Spence, po struci psiholog i životni trener (Life coach). Kroz sam prošla brojne izazove i prepreke koje su me oblikovali u osobu kakva sam danas. Prošla sam preseljenje u drugu državu, gubitak supruga početkom 2017. godine, bolest i gubitak majke te povratak u Hrvatsku nakon šest godina života u inozemstvu. Kako bih se nosila s izazovima i promjenama, morala sam naučiti gledati prepreke kao prilike za rast. Trebala sam se ponovno povezati sa sobom, svojim potrebama i emocijama te izgraditi sebe iznova, u potpuno novim okolnostima.",
+    "bioP2": "Naučiti voljeti sebe, i postati sama sebi najbolji prijatelj, roditelj i podrška, bio je najteži izazov, ali i najveći dar koji sam si ikada mogla dati. Kroz svoj osobni put, uvidjela sam vrijednost rada na sebi, ne samo za mene i moj život, već i za druge u mojoj okolini.",
+    "bioP3": "Danas želim iskoristiti sva znanja i iskustva koja sam stekla kako bih vas podržala u ostvarenju vaših potencijala i izgradnji života koji volite živjeti. U srži mog rada jest razumijevanje, poštovanje i izgradnja sigurnog prostora za istraživanje i rad. Duboko vjerujem da je svatko od nas sposoban za promjenu te da smo mi sami najbolji resurs za vlastiti život. Čak i uz to, ponekad nam je potrebna podrška. Zato ne nudim gotova rješenja - već vam pomažem pronaći upravo ona koja su najbolja za vas. Svoj pristup i metode prilagođavam upravo vašim jedinstvenim potrebama i karakteristikama, bilo da se radi o znanstveno utemeljenim praksama i principima, ili onima koja spajaju duhovnost sa znanošću.",
+    "videoHeading": "Upoznajte me",
+    "videoTitle": "Sara Spence – video",
+    "certHeading": "Edukacije, certifikati i prakse",
+    "certs": [
+      "2011. Magistra psihologije, Filozofski fakultet Sveučilišta u Zagrebu",
+      "2014. – 2020. Život i rad u Velikoj Britaniji",
+      "2018. nadalje – praksa joge, meditacije, plesa, itd.",
+      "2019. Konferencija Gregg Braden, Amsterdam",
+      "2019. Inka I inicijacija, Zagreb",
+      "2021. nadalje – ples 5 ritmova, pohađanje različitih vrsta psihoterapije (dva navrata), druge radionice i prakse",
+      "2024. Reiki Holy Fire III – stupanj I i II inicijacija (vikend intenzivi jedan na jedan, online)",
+      "2020. – 2025. Zaposlena u DEKRA-i zapošljavanje kao HR Consultant",
+      "2025. NLP – NLP - Neuro Linguistic Programming - Your Ultimate Guide To NLP (online tečaj)",
+      "2025. REBT – REBT - The Science Of Re-Programming Your Mind! (online tečaj)",
+      "2025. How to process emotions (Kako procesirati emocije), by Therapy in a Nutshell",
+      "2025. Grounding skills for anxiety i Anxiety skills (Tehnike uzemljavanja i vještine nošenja s tjeskobom), by Therapy in a Nutshell",
+      "2026. Dipl. Životni trener (Life Coach, online)",
+      "2026. Mindfulness - Based Stress Reduction Program, by Palouse Mindfulness",
+      "2026. Polivagusna teorija, teorija privrženosti, trauma i CFT (Compassion- focused therapy), edukacija mag. psych. Petre Malešević",
+      "2026. Gubici: Samopodrška i podrška u procesu tugovanja, edukacija i radionica prof.dr.sc. Lidije Arambašić"
+    ]
+  },
+
+  "services": {
+    "title": "Usluge — Bubamara Savjetovanje",
+    "description": "Savjetovanje za životne tranzicije i duhovno-energetski rad. Saznajte kako mogu pomoći.",
+    "heading": "Usluge",
+    "subheading": "Individualizirani pristup Vašim potrebama i ciljevima",
+    "cta": "Zakaži razgovor",
+    "ctaReiki": "Zakaži tretman",
+    "ctaRelax": "Prijavi se u grupu",
+    "goals": {
+      "heading": "Životni ciljevi, navike i karijera",
+      "items": [
+        "Definiranje i razrada planova za postizanje kratkoročnih i dugoročnih ciljeva u bilo kojoj domeni života",
+        "Pronalazak životne svrhe i željenog smjera u životu",
+        "Razvoj strategija za rješavanje problema i donošenje važnih životnih odluka",
+        "Profesionalno usmjeravanje i savjetovanje o karijeri",
+        "Razvoj vještina prezentacije na tržištu rada (izrada životopisa i profila na društvenim mrežama te priprema za razgovore za posao)",
+        "Razvoj navika za poboljšanje zdravlja i dobrobiti (nošenje sa stresom, organizacija vremena, prehrana, tjelovježba, spavanje, briga o sebi)",
+        "Usavršavanje strategija za održavanje dugoročne motivacije i ustrajnosti"
+      ]
+    },
+    "transitions": {
+      "heading": "Navigiranje životnih promjena i tranzicija",
+      "items": [
+        "Podrška tijekom zahtjevnih životnih promjena i događaja (poput bolesti, raskida veza i odnosa, promjena karijere, gubitaka i slično, bilo vlastitih ili onih koje prolaze bliske osobe)",
+        "Procesiranje događaja, emocija i razmišljanja",
+        "Prepoznavanje novih mogućnosti unutar postojećih okolnosti",
+        "Razvoj otpornosti i novih načina prilagodbe u novonastaloj situaciji"
+      ]
+    },
+    "personal": {
+      "heading": "Osobni razvoj i bolje upoznavanje sebe",
+      "items": [
+        "Prepoznavanje i razumijevanje vlastitih unutarnjih prepreka, ograničavajućih obrazaca razmišljanja i nepoželjnih ponašanja",
+        "Razumijevanje uzročno-posljedičnih veza kod različitih životnih ishoda (zašto se nešto događa)",
+        "Promjena i optimizacija unutarnjeg dijaloga, načina razmišljanja i obrazaca ponašanja",
+        "Razumijevanje vlastitih emocija i razvoj efikasnih načina nošenja s njima",
+        "Razvoj komunikacijskih vještina s ciljem poboljšanja međuljudskih odnosa i povećanja vjerojatnosti za uspjeh",
+        "Prepoznavanje vlastitih vrijednosti (što nam je u životu najvažnije) kao glavnih smjernica za autentičan i ispunjen život"
+      ]
+    },
+    "spiritual": {
+      "heading": "Podrška u duhovno-energetskom radu",
+      "intro": "Znanost je zadnjih desetljeća počela povezivati duhovna učenja sa znanstveno dokazanim principima i konceptima. Jeste li ikada pomislili:",
+      "items": [
+        "Što točno znači prosvjetljenje? Kako ga postići?",
+        "Kako da podignem svoju vibracijsku razinu trajno i u potpunosti?",
+        "Što sve točno uključuje manifestacija? Koji su koraci i kako da manifestiram ono što želim?",
+        "Kako da koristim afirmacije? Trudim se razmišljati pozitivno, ali se ništa ne mijenja.",
+        "Meditacija jednostavno nije za mene. Što da radim umjesto toga?",
+        "Jako upijam i osjećam emocije drugih ljudi oko sebe. Kako da se zaštitim?",
+        "Što je točno ego i zašto se ponekad aktivira?",
+        "Kako da razvijem svoju intuiciju? Čini se da ona nekada radi, a nekada ne.",
+        "Jesu li energije s kojima radim (ili se susrećem) pozitivne? Kako da znam prepoznati razliku?"
+      ],
+      "outro": "Ovo su samo neka od pitanja koja se mogu javiti na putu osobnog duhovnog razvoja. Ako se osjećate kao da ste \"zapeli\" na nekom od koraka svog puta, ovdje sam da vam pomognem. Kroz svoje vlastito iskustvo i metode rada, naučila sam spojiti \"neopipljive\" koncepte duhovnosti s praktičnim tehnikama i alatima koje ću vrlo rado podijeliti s vama. Često je vrlo malo potrebno kako bismo dalje mogli nastaviti sami. Za to može biti potreban samo jedan susret ili više njih, a što u potpunosti ovisi o vama, vašim potrebama i željama."
+    },
+    "reiki": {
+      "heading": "Reiki Holy Fire III - energetsko iscjeljivanje",
+      "intro": "Reiki Holy Fire III je nježan, ali iznimno snažan oblik energetskog iscjeljivanja, poznat po svojim duboko pročišćavajućim, njegujućim i transformativnim svojstvima. Djeluje tako da aktivira prirodnu sposobnost tijela da se vrati u stanje ravnoteže, otpusti napetost i stvori dublji osjećaj unutarnjeg mira. Pomaže da se povežemo sa svojom unutarnjom snagom, jasnoćom i smjerom, bez forsiranja i uvijek u skladu s našim vlastitim ritmom. S obzirom na to, može vam pomoći ako:",
+      "items": [
+        "tražite emocionalno olakšanje, uzemljenje ili smirenje",
+        "osjećate preopterećenost, stres ili energetsku iscrpljenost",
+        "želite se ponovno povezati sa sobom i svojom intuicijom",
+        "prolazite kroz životne promjene ili procese iscjeljivanja",
+        "trebate podršku u otpuštanju starih obrazaca ili emocionalnih blokada",
+        "želite podići svoju vibraciju i osjećati se usklađenije"
+      ],
+      "outro": "Budući da je Reiki sam po sebi inteligentna energija, on uvijek djeluje onako kako je u tom trenutku najbolje za vas. Može vam pomoći da se osjećate opuštenije i odmornije, ili donijeti duboke pomake upravo u područjima u kojima ste spremni za promjenu."
+    },
+    "relax": {
+      "_note": "TODO(sara): hrvatski tekst je nacrt preveden s engleskog – molim pregled.",
+      "heading": "Grupe za relaksaciju",
+      "p1": "Istraživanja pokazuju da redovito prakticiranje tehnika relaksacije smanjuje utjecaj stresa te povećava fokus, smirenost i osjećaj dobrobiti. Također nam pomaže lakše primijetiti što se događa u nama, što može biti ključno za snalaženje u različitim situacijama i postizanje ciljeva (čak i ako je taj cilj „samo“ osjećati se dobro).",
+      "p2": "Ove grupe osmišljene su kako biste izdvojili vrijeme za sebe te naučili i vježbali različite tehnike relaksacije. Vođena relaksacija može na svakom susretu izgledati malo drugačije, no njezin glavni cilj uvijek ostaje isti: smiriti živčani sustav, otpustiti napetost i umiriti um. Time svoj sustav vraćamo u „ovdje i sada“ i dajemo mu prijeko potreban odmor od svakodnevice.",
+      "sessionsIntro": "Susreti se održavaju online, traju otprilike 30 minuta i sastoje se od:",
+      "sessionItems": [
+        "kratkog uvoda i smještanja",
+        "vježbe relaksacije (20 minuta)",
+        "završnog razgovora s prostorom za pitanja i komentare"
+      ],
+      "needHeading": "Što vam je potrebno za sudjelovanje?",
+      "needItems": [
+        "uređaj na kojem radi Google Meet",
+        "miran prostor i vrijeme bez prekidanja u kojem se zaista možete opustiti",
+        "nije potrebno nikakvo predznanje ni iskustvo – sve vježbe su u potpunosti vođene kako biste se mogli duboko opustiti i prepustiti iskustvu"
+      ],
+      "closing": "Jeste li spremni učiniti nešto dobro za sebe – a time i za sve oko sebe?"
+    },
+    "pricingHeading": "Cjenik",
+    "pricingText": "Cijene susreta i Reiki tretmana te uvjeti plaćanja i otkazivanja.",
+    "pricingCta": "Pogledajte cjenik"
+  },
+
+  "faq": {
+    "title": "FAQ — Bubamara Savjetovanje",
+    "description": "Česta pitanja o savjetovanju, Reiki tretmanima, susretima i cijenama. Saznajte sve što trebate znati.",
+    "heading": "Dodatne informacije",
+    "subheading": "Sve što trebate znati prije prvog koraka",
+    "q1": {
+      "q": "Kako da znam je li ovo za mene?",
+      "intro": "Na pravom ste mjestu ako:",
+      "items": [
+        "Osjećate da možete ili želite više, ali ne znate točno što ili kako to postići",
+        "Želite promijeniti karijeru ili pronaći svoju životnu svrhu",
+        "Se borite sa stresom, osjecate iscrpljeno, preopterećeno ili vam se tesko opustiti",
+        "Želite naučiti bolje se nositi sa svojim emocijama",
+        "Imate ciljeve, ali niste sigurni kako ih postići",
+        "Znate što Vam je potrebno, ali Vam se teško natjerati da počnete",
+        "Prolazite kroz zahtjevno životno razdoblje i potrebna Vam je podrška",
+        "Želite produbiti razumijevanje i poznavanje sebe",
+        "Želite naučiti voljeti i više cijeniti sebe"
+      ],
+      "outro": "Ako je vaš odgovor na bilo koje od ovih pitanja \"da\", mogu vam pomoći da zajednički dođemo do odgovora."
+    },
+    "q2": {
+      "q": "Što se događa ako se odlučim javiti?",
+      "answer": [
+        "Za početak, bravo i čestitam na hrabrosti! Za prijavu ispunite kontakt formu ili mi se javite na mail <a href=\"mailto:sara.spence@bubamarasavjetovanje.hr\">sara.spence@bubamarasavjetovanje.hr</a> s kratkim opisom situacije ili razloga iz kojeg ste se odlučili prijaviti i dodatnim napomenama (primjerice, preferencija vezano uz termin ili način održavanja susreta).",
+        "Nakon što zaprimim vaš kontakt, javljam vam se povratno za dogovor oko termina i načina održavanja susreta."
+      ]
+    },
+    "q3": {
+      "q": "Kako izgledaju susreti i koliko često se trebaju događati?",
+      "answer": [
+        "Susrete možemo održavati online ili uživo, na hrvatskom ili engleskom jeziku, ovisno o mogućnostima i preferencijama.",
+        "Susreti obično traju 50 minuta, a moguće je dogovoriti i blok-susret po potrebi (trajanje susreta je u tom slučaju 90–100 minuta).",
+        "Čestina susreta može biti različita. Poželjno je da susreti budu što redovitiji (primjerice, jednom tjedno ili jednom u dva tjedna), što pomaže u procesu promjene jer nam daje strukturu i okvir unutar kojega radimo.",
+        "Reiki tretmani se provode isključivo na daljinu, odnosno online. Pojedini tretman traje 25-35 minuta. Dok traje tretman, potrebno je ostati budan te ležati ili sjediti u udobnom, opuštenom položaju, u svom privatnom prostoru, bez okolnih distrakcija."
+      ]
+    },
+    "q4": {
+      "q": "Što mogu očekivati od Sare i cijelog procesa?",
+      "answer": [
+        "S obzirom na važnost koju pridajem \"ljudskosti\", moje glavne vrijednosti uključuju suosjećanje, poštovanje i uvažavanje svih individualnih karakteristika, potreba, želja i okolnosti svakog ljudskog bića. S obzirom na to, možete očekivati da ću dati sve od sebe da se sa mnom osjećate viđeno, poštovano i nadasve slobodno izraziti sve ono što vam je važno i potrebno u tom trenutku. Uz to, možete očekivati i povremena pitanja, vježbe i povratne informacije, ovisno o situaciji. Time vas pozivam na širenje pogleda na sebe i svijet, pronalazak novih, kreativnih rješenja i postizanje željenih promjena.",
+        "Tijekom Reiki tretmana možete osjetiti toplinu, trnce, emocije ili uvide, a ponekad i ništa posebno. Reiki je nježna, ali snažna energija koja djeluje isključivo onako kako je u tom trenutku najbolje za vas."
+      ]
+    },
+    "q5": {
+      "q": "Koliko brzo mogu očekivati rezultate?",
+      "answer": [
+        "Brzina rezultata ovisi o konkretnom cilju i situaciji u kojoj se nalazite. S obzirom na to, broj susreta se može kretati od samo jednog pa na više. Broj Reiki tretmana nikada ne prelazi 10 bez duže pauze između blokova."
+      ]
+    },
+    "pricing": {
+      "q": "Koje su cijene i načini plaćanja?",
+      "intro": "U skladu s propisima o zaštiti potrošača, donosim <strong>cjenik usluga</strong> za obrt Bubamara savjetovanje, vl. Sara Spence, Slavka Kolara 10, Velika Gorica (cijene važeće od 10.09.2026.):",
+      "items": [
+        "Individualno savjetovanje (jedan susret): 40€",
+        "Individualno savjetovanje (blok-susret): 80€",
+        "Reiki tretman: 25€ (moguć je popust za ukupne uplate unaprijed za 10 tretmana)"
+      ],
+      "terms": "Uvjeti plaćanja i promocije: Platiti se može <strong>isključivo</strong> putem <strong>bankovne transakcije</strong> po izdanom računu. Popusti se odobravaju ovisno o zadovoljenju kriterija u javnim promocijama.",
+      "cancellation": "Politika otkazivanja: U slučaju otkazivanja <strong>manje od 24 sata</strong> prije dogovorenog termina (uključujući vikende i blagdane), naplaćuje se <strong>50%</strong> cijene susreta."
+    },
+    "ctaText": "Imate još pitanja? Slobodno me kontaktirajte.",
+    "ctaButton": "Pošaljite poruku"
+  },
+
+  "contact": {
+    "title": "Kontakt — Bubamara Savjetovanje",
+    "description": "Kontaktirajte nas. Sara Spence, mag. psihologije i životni trener — Bubamara Savjetovanje.",
+    "heading": "Kontakt"
+  },
+
+  "privacy": {
+    "title": "Politika privatnosti — Bubamara Savjetovanje",
+    "description": "Politika privatnosti — kako Bubamara Savjetovanje prikuplja, obrađuje i štiti vaše osobne podatke.",
+    "heading": "Politika privatnosti",
+    "lead": "Ova Politika privatnosti objašnjava kako Bubamara savjetovanje, Slavka Kolara 10, Velika Gorica, OIB 37702159237 prikuplja, obrađuje i štiti vaše osobne podatke kada posjetite web stranicu bubamarasavjetovanje.hr ili me kontaktirate.",
+    "intro": "Zaštita vaših osobnih podataka iznimno mi je važna. Molim vas da pažljivo pročitate ovu Politiku privatnosti kako biste saznali koji podaci se prikupljaju i u koje svrhe se koriste.",
+    "s1h": "1. Koji osobni podaci se prikupljaju?",
+    "s1p1": "Putem web stranice prikupljaju se samo oni osobni podatci koje mi vi dobrovoljno stavite na raspolaganje putem kontakt forme ili direktnog e-maila: ime i prezime, e-mail adresa, telefonski broj te sadržaj poruke/upita koji pošaljete.",
+    "s1p2": "Budući da moja web stranica ne koristi kolačiće (cookies) za praćenje korisnika niti alate za web statistiku, ne prikupljaju se automatski tehnički podatci o vašem pregledavanju.",
+    "s2h": "2. Svrha i pravna osnova obrade podataka",
+    "s2intro": "Vaši osobni podatci prikupljaju se i obrađuju u sljedeće svrhe:",
+    "s2items": [
+      "<strong>Odgovaranje na vaše upite:</strong> Kada me kontaktirate s upitom o uslugama koje nudim, vaše podatke obrađujem kako bih odgovorila na vaš upit i dogovorila daljnje korake (temeljem poduzimanja predugovornih radnji na vaš zahtjev).",
+      "<strong>Izvršenje usluge i ugovora:</strong> Ako postanete moj klijent, podatke koristim za provedbu usluga i vođenje evidencije poslovanja (u skladu sa zakonskim obvezama izdavanja računa)."
+    ],
+    "s3h": "3. Koliko dugo se čuvaju vaši podatci?",
+    "s3items": [
+      "<strong>Upiti bez naknadne suradnje:</strong> Podaci poslani putem kontakt forme koji ne rezultiraju sklapanjem usluge čuvaju se najduže 12 mjeseci od posljednje komunikacije, nakon čega se brišu.",
+      "<strong>Podaci o klijentima (računovodstvena dokumentacija):</strong> Podaci o izvršenim uslugama i izdani računi čuvaju se u zakonskom roku propisanom računovodstvenim i poreznim propisima (obično 11 godina)."
+    ],
+    "s4h": "4. Tko ima pristup vašim podacima?",
+    "s4p": "Vaši osobni podaci strogo su povjerljivi. Oni se ne prodaju, iznajmljuju niti dijele s trećim stranama, osim s nadležnim državnim tijelima u situacijama kada je to izričito propisano zakonom.",
+    "s5h": "5. Sigurnost podataka",
+    "s5p": "Poduzimaju se sve odgovarajuće tehničke i organizacijske mjere zaštite kako bi se spriječio slučajni ili nezakoniti gubitak, uništavanje, neovlašteni pristup ili izmjena vaših osobnih podataka.",
+    "s6h": "6. Vaša prava",
+    "s6intro": "U svakom trenutku imate pravo na:",
+    "s6items": [
+      "<strong>Pristup podacima:</strong> Zatražiti potvrdu obrađuju li se vaši podatci te uvid u iste.",
+      "<strong>Ispravak i dopunu:</strong> Zatražiti ispravak netočnih podataka.",
+      "<strong>Brisanje („pravo na zaborav“):</strong> Zatražiti brisanje vaših osobnih podataka ako više nisu nužni za svrhu u koju su prikupljeni.",
+      "<strong>Prigovor:</strong> Uložiti prigovor na obradu podataka."
+    ],
+    "s6p": "Sva svoja prava možete ostvariti slanjem zahtjeva na e-mail adresu: <a href=\"mailto:sara.spence@bubamarasavjetovanje.hr\">sara.spence@bubamarasavjetovanje.hr</a>.",
+    "s7h": "7. Izmjene Politike privatnosti",
+    "s7p": "Ova Politika privatnosti se može povremeno ažurirati kako bi bila usklađena s promjenama u zakonodavstvu ili poslovanju. Preporučujemo da s vremena na vrijeme provjerite ovu stranicu.",
+    "updated": "Posljednji put ažurirano: 10. rujan 2026."
+  },
+
+  "complaints": {
+    "title": "Podnošenje prigovora — Bubamara Savjetovanje",
+    "description": "Obavijest o načinu podnošenja pisanog prigovora potrošača sukladno Zakonu o zaštiti potrošača.",
+    "heading": "Podnošenje prigovora",
+    "subheading": "Obavijest o načinu podnošenja pisanog prigovora potrošača",
+    "lead": "Sukladno članku 10. Zakona o zaštiti potrošača („Narodne novine“, br. 19/22), obavještavam svoje klijente i potrošače da prigovor na kvalitetu mojih usluga mogu podnijeti u pisanom obliku.",
+    "sendHeading": "Prigovor možete poslati",
+    "sendItems": [
+      "Putem e-mail adrese: <a href=\"mailto:sara.spence@bubamarasavjetovanje.hr\">sara.spence@bubamarasavjetovanje.hr</a>",
+      "Putem pošte na adresu: Slavka Kolara 10, Velika Gorica"
+    ],
+    "sendNote": "Radi lakše identifikacije prigovora, molimo vas da u prigovoru navedete svoje ime i prezime, kontakt podatke za dostavu odgovora te jasan opis razloga nezadovoljstva.",
+    "responseHeading": "Rok za odgovor",
+    "responseText": "Po primitku pisanog prigovora, potvrdit ću njegov primitak bez odgađanja pisanim putem (e-mailom), a na vaš prigovor ću odgovoriti najkasnije u roku od 15 dana od dana zaprimanja prigovora."
+  },
+
+  "notFound": {
+    "title": "Stranica nije pronađena — Bubamara Savjetovanje",
+    "heading": "Stranica nije pronađena",
+    "text": "Nažalost, stranica koju tražite ne postoji ili je premještena. Provjerite adresu ili se vratite na naslovnicu.",
+    "home": "Naslovna"
+  },
+
+  "footer": {
+    "heading": "Kontakt",
+    "name": "Ime i prezime",
+    "namePlaceholder": "Vaše ime i prezime",
+    "email": "Email",
+    "emailPlaceholder": "vas@email.com",
+    "message": "Poruka",
+    "messagePlaceholder": "Vaša poruka...",
+    "send": "Pošalji poruku",
+    "sending": "Šaljem poruku...",
+    "sent": "Hvala! Vaša poruka je poslana.",
+    "error": "Došlo je do greške. Pokušajte ponovno.",
+    "networkError": "Nije moguće poslati poruku. Provjerite vezu i pokušajte ponovno.",
+    "pricing": "Cjenik",
+    "privacy": "Politika privatnosti",
+    "complaints": "Podnošenje prigovora",
+    "rights": "© 2026 Bubamara Savjetovanje. Sva prava pridržana."
+  }
+}
