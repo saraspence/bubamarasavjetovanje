@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script>
       /* i18n: set <html lang> before first paint so CSS can hide the Croatian fallback for EN visitors */
-      (function () { try { var l = new URLSearchParams(location.search).get("lang") || localStorage.getItem("lang"); if (l && l !== "hr") document.documentElement.lang = l; } catch (e) {} })();
+      (function () {
+        try {
+          var l =
+            new URLSearchParams(location.search).get("lang") ||
+            localStorage.getItem("lang");
+          if (l && l !== "hr") document.documentElement.lang = l;
+        } catch (e) {}
+      })();
     </script>
     <title>Usluge — Bubamara Savjetovanje</title>
     <meta
@@ -35,7 +42,9 @@
       <!-- ── PAGE HERO ─────────────────────────────────────────────────── -->
       <div class="page-hero">
         <h1 data-i18n="services.heading">Usluge</h1>
-        <p data-i18n="services.subheading">Individualizirani pristup Vašim potrebama i ciljevima</p>
+        <p data-i18n="services.subheading">
+          Individualizirani pristup Vašim potrebama i ciljevima
+        </p>
       </div>
 
       <!-- ── SERVICE 1: LIFE GOALS ────────────────────────────────────── -->
@@ -50,7 +59,9 @@
               />
             </div>
             <div class="spotlight__content">
-              <h2 id="goals-heading" data-i18n="services.goals.heading">Životni ciljevi, navike i karijera</h2>
+              <h2 id="goals-heading" data-i18n="services.goals.heading">
+                Životni ciljevi, navike i karijera
+              </h2>
 
               <div class="service-detail">
                 <ul data-i18n-list="services.goals.items">
@@ -81,7 +92,12 @@
                 </ul>
               </div>
 
-              <a href="contact.html" class="spotlight__link" data-i18n="services.cta">Zakaži razgovor</a>
+              <a
+                href="contact.html"
+                class="spotlight__link"
+                data-i18n="services.cta"
+                >Zakaži razgovor</a
+              >
             </div>
           </div>
         </div>
@@ -99,7 +115,10 @@
               />
             </div>
             <div class="spotlight__content">
-              <h2 id="transitions-heading" data-i18n="services.transitions.heading">
+              <h2
+                id="transitions-heading"
+                data-i18n="services.transitions.heading"
+              >
                 Navigiranje životnih promjena i tranzicija
               </h2>
 
@@ -111,6 +130,7 @@
                     gubitaka i slično, bilo vlastitih ili onih koje prolaze
                     bliske osobe)
                   </li>
+                  <li>Podrška u tugovanju</li>
                   <li>Procesiranje događaja, emocija i razmišljanja</li>
                   <li>
                     Prepoznavanje novih mogućnosti unutar postojećih okolnosti
@@ -122,7 +142,12 @@
                 </ul>
               </div>
 
-              <a href="contact.html" class="spotlight__link" data-i18n="services.cta">Zakaži razgovor</a>
+              <a
+                href="contact.html"
+                class="spotlight__link"
+                data-i18n="services.cta"
+                >Zakaži razgovor</a
+              >
             </div>
           </div>
         </div>
@@ -143,7 +168,10 @@
               />
             </div>
             <div class="spotlight__content">
-              <h2 id="personal-development-heading" data-i18n="services.personal.heading">
+              <h2
+                id="personal-development-heading"
+                data-i18n="services.personal.heading"
+              >
                 Osobni razvoj i bolje upoznavanje sebe
               </h2>
 
@@ -178,7 +206,12 @@
                 </ul>
               </div>
 
-              <a href="contact.html" class="spotlight__link" data-i18n="services.cta">Zakaži razgovor</a>
+              <a
+                href="contact.html"
+                class="spotlight__link"
+                data-i18n="services.cta"
+                >Zakaži razgovor</a
+              >
             </div>
           </div>
         </div>
@@ -196,7 +229,9 @@
               />
             </div>
             <div class="spotlight__content">
-              <h2 id="spiritual-heading" data-i18n="services.spiritual.heading">Podrška u duhovno-energetskom radu</h2>
+              <h2 id="spiritual-heading" data-i18n="services.spiritual.heading">
+                Podrška u duhovno-energetskom radu
+              </h2>
 
               <div class="service-detail">
                 <p data-i18n="services.spiritual.intro">
@@ -249,7 +284,12 @@
                 </p>
               </div>
 
-              <a href="contact.html" class="spotlight__link" data-i18n="services.cta">Zakaži razgovor</a>
+              <a
+                href="contact.html"
+                class="spotlight__link"
+                data-i18n="services.cta"
+                >Zakaži razgovor</a
+              >
             </div>
           </div>
         </div>
@@ -313,7 +353,12 @@
                 </p>
               </div>
 
-              <a href="contact.html" class="spotlight__link" data-i18n="services.ctaReiki">Zakaži tretman</a>
+              <a
+                href="contact.html"
+                class="spotlight__link"
+                data-i18n="services.ctaReiki"
+                >Zakaži tretman</a
+              >
             </div>
           </div>
         </div>
@@ -395,11 +440,16 @@
       <section class="section" aria-labelledby="pricing-heading">
         <div class="container">
           <div class="faq-cta faq-cta--flush">
-            <h2 id="pricing-heading" data-i18n="services.pricingHeading">Cjenik</h2>
+            <h2 id="pricing-heading" data-i18n="services.pricingHeading">
+              Cjenik
+            </h2>
             <p data-i18n="services.pricingText">
               Cijene susreta i Reiki tretmana te uvjeti plaćanja i otkazivanja.
             </p>
-            <a href="faq.html#pricing" class="btn btn--primary" data-i18n="services.pricingCta"
+            <a
+              href="faq.html#pricing"
+              class="btn btn--primary"
+              data-i18n="services.pricingCta"
               >Pogledajte cjenik</a
             >
           </div>
