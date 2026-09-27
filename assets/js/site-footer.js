@@ -54,7 +54,7 @@ class SiteFooter extends HTMLElement {
               <ul class="contact-info-list">
                 <li>
                   <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-                  <span>Bubamara Savjetovanje<br>Velika Gorica</span>
+                  <span>Bubamara Savjetovanje, obrt za usluge, vl. Sara Spence, Velika Gorica, Slavka Kolara 10</span>
                 </li>
                 <li>
                   <i class="fa-solid fa-envelope" aria-hidden="true"></i>
