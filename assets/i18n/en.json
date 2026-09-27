@@ -118,7 +118,7 @@
       "heading": "Navigating Life Changes & Transitions",
       "items": [
         "Support during challenging life events (illness, breakups, career changes, losses - your own or those of loved ones)",
-        "Grief support"
+        "Grief support",
         "Processing events, emotions, and thoughts",
         "Recognizing new possibilities within your current circumstances",
         "Developing resilience and new ways of adapting to change"
@@ -249,6 +249,7 @@
       ],
       "terms": "Payment & promotional terms: Payment is accepted <strong>exclusively</strong> via <strong>bank transfer</strong> upon invoice issuance. Promotional discounts apply subject to meeting public campaign criteria.",
       "cancellation": "Cancellation policy: Cancellations made <strong>less than 24 hours</strong> prior to the scheduled appointment (including weekends and public holidays) will incur a charge of <strong>50%</strong> of the session fee.",
+      "link": "Download CSV pricelist"
     },
     "ctaText": "Still have questions? Feel free to reach out.",
     "ctaButton": "Send a message"
