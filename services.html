@@ -7,9 +7,7 @@
       /* i18n: set <html lang> before first paint so CSS can hide the Croatian fallback for EN visitors */
       (function () {
         try {
-          var l =
-            new URLSearchParams(location.search).get("lang") ||
-            localStorage.getItem("lang");
+          var l = new URLSearchParams(location.search).get("lang") || localStorage.getItem("lang");
           if (l && l !== "hr") document.documentElement.lang = l;
         } catch (e) {}
       })();
@@ -42,9 +40,7 @@
       <!-- ── PAGE HERO ─────────────────────────────────────────────────── -->
       <div class="page-hero">
         <h1 data-i18n="services.heading">Usluge</h1>
-        <p data-i18n="services.subheading">
-          Individualizirani pristup Vašim potrebama i ciljevima
-        </p>
+        <p data-i18n="services.subheading">Individualizirani pristup Vašim potrebama i ciljevima</p>
       </div>
 
       <!-- ── SERVICE 1: LIFE GOALS ────────────────────────────────────── -->
@@ -52,11 +48,7 @@
         <div class="container">
           <div class="spotlight">
             <div class="spotlight__image">
-              <img
-                src="./assets/images/usluge1.jpg"
-                alt="Priroda i put"
-                loading="lazy"
-              />
+              <img src="./assets/images/usluge1.jpg" alt="Priroda i put" loading="lazy" />
             </div>
             <div class="spotlight__content">
               <h2 id="goals-heading" data-i18n="services.goals.heading">
@@ -66,36 +58,27 @@
               <div class="service-detail">
                 <ul data-i18n-list="services.goals.items">
                   <li>
-                    Definiranje i razrada planova za postizanje kratkoročnih i
-                    dugoročnih ciljeva u bilo kojoj domeni života
+                    Definiranje i razrada planova za postizanje kratkoročnih i dugoročnih ciljeva u
+                    bilo kojoj domeni života
                   </li>
                   <li>Pronalazak životne svrhe i željenog smjera u životu</li>
                   <li>
-                    Razvoj strategija za rješavanje problema i donošenje važnih
-                    životnih odluka
+                    Razvoj strategija za rješavanje problema i donošenje važnih životnih odluka
                   </li>
                   <li>Profesionalno usmjeravanje i savjetovanje o karijeri</li>
                   <li>
-                    Razvoj vještina prezentacije na tržištu rada (izrada
-                    životopisa i profila na društvenim mrežama te priprema za
-                    razgovore za posao)
+                    Razvoj vještina prezentacije na tržištu rada (izrada životopisa i profila na
+                    društvenim mrežama te priprema za razgovore za posao)
                   </li>
                   <li>
-                    Razvoj navika za poboljšanje zdravlja i dobrobiti (nošenje
-                    sa stresom, organizacija vremena, prehrana, tjelovježba,
-                    spavanje, briga o sebi)
+                    Razvoj navika za poboljšanje zdravlja i dobrobiti (nošenje sa stresom,
+                    organizacija vremena, prehrana, tjelovježba, spavanje, briga o sebi)
                   </li>
-                  <li>
-                    Usavršavanje strategija za održavanje dugoročne motivacije i
-                    ustrajnosti
-                  </li>
+                  <li>Usavršavanje strategija za održavanje dugoročne motivacije i ustrajnosti</li>
                 </ul>
               </div>
 
-              <a
-                href="contact.html"
-                class="spotlight__link"
-                data-i18n="services.cta"
+              <a href="contact.html" class="spotlight__link" data-i18n="services.cta"
                 >Zakaži razgovor</a
               >
             </div>
@@ -108,44 +91,28 @@
         <div class="container">
           <div class="spotlight spotlight--reverse">
             <div class="spotlight__image">
-              <img
-                src="./assets/images/usluga2.jpg"
-                alt="Priroda i put"
-                loading="lazy"
-              />
+              <img src="./assets/images/usluga2.jpg" alt="Priroda i put" loading="lazy" />
             </div>
             <div class="spotlight__content">
-              <h2
-                id="transitions-heading"
-                data-i18n="services.transitions.heading"
-              >
+              <h2 id="transitions-heading" data-i18n="services.transitions.heading">
                 Navigiranje životnih promjena i tranzicija
               </h2>
 
               <div class="service-detail">
                 <ul data-i18n-list="services.transitions.items">
                   <li>
-                    Podrška tijekom zahtjevnih životnih promjena i događaja
-                    (poput bolesti, raskida veza i odnosa, promjena karijere,
-                    gubitaka i slično, bilo vlastitih ili onih koje prolaze
-                    bliske osobe)
+                    Podrška tijekom zahtjevnih životnih promjena i događaja (poput bolesti, raskida
+                    veza i odnosa, promjena karijere, gubitaka i slično, bilo vlastitih ili onih
+                    koje prolaze bliske osobe)
                   </li>
                   <li>Podrška u tugovanju</li>
                   <li>Procesiranje događaja, emocija i razmišljanja</li>
-                  <li>
-                    Prepoznavanje novih mogućnosti unutar postojećih okolnosti
-                  </li>
-                  <li>
-                    Razvoj otpornosti i novih načina prilagodbe u novonastaloj
-                    situaciji
-                  </li>
+                  <li>Prepoznavanje novih mogućnosti unutar postojećih okolnosti</li>
+                  <li>Razvoj otpornosti i novih načina prilagodbe u novonastaloj situaciji</li>
                 </ul>
               </div>
 
-              <a
-                href="contact.html"
-                class="spotlight__link"
-                data-i18n="services.cta"
+              <a href="contact.html" class="spotlight__link" data-i18n="services.cta"
                 >Zakaži razgovor</a
               >
             </div>
@@ -154,62 +121,44 @@
       </section>
 
       <!-- ── SERVICE 3: PERSONAL DEVELOPMENT ──────────────────────────── -->
-      <section
-        class="section section--alt"
-        aria-labelledby="personal-development-heading"
-      >
+      <section class="section section--alt" aria-labelledby="personal-development-heading">
         <div class="container">
           <div class="spotlight">
             <div class="spotlight__image">
-              <img
-                src="./assets/images/usluga3.jpg"
-                alt="Priroda i put"
-                loading="lazy"
-              />
+              <img src="./assets/images/usluga3.jpg" alt="Priroda i put" loading="lazy" />
             </div>
             <div class="spotlight__content">
-              <h2
-                id="personal-development-heading"
-                data-i18n="services.personal.heading"
-              >
+              <h2 id="personal-development-heading" data-i18n="services.personal.heading">
                 Osobni razvoj i bolje upoznavanje sebe
               </h2>
 
               <div class="service-detail">
                 <ul data-i18n-list="services.personal.items">
                   <li>
-                    Prepoznavanje i razumijevanje vlastitih unutarnjih prepreka,
-                    ograničavajućih obrazaca razmišljanja i nepoželjnih
+                    Prepoznavanje i razumijevanje vlastitih unutarnjih prepreka, ograničavajućih
+                    obrazaca razmišljanja i nepoželjnih ponašanja
+                  </li>
+                  <li>
+                    Razumijevanje uzročno-posljedičnih veza kod različitih životnih ishoda (zašto se
+                    nešto događa)
+                  </li>
+                  <li>
+                    Promjena i optimizacija unutarnjeg dijaloga, načina razmišljanja i obrazaca
                     ponašanja
                   </li>
+                  <li>Razumijevanje vlastitih emocija i razvoj efikasnih načina nošenja s njima</li>
                   <li>
-                    Razumijevanje uzročno-posljedičnih veza kod različitih
-                    životnih ishoda (zašto se nešto događa)
+                    Razvoj komunikacijskih vještina s ciljem poboljšanja međuljudskih odnosa i
+                    povećanja vjerojatnosti za uspjeh
                   </li>
                   <li>
-                    Promjena i optimizacija unutarnjeg dijaloga, načina
-                    razmišljanja i obrazaca ponašanja
-                  </li>
-                  <li>
-                    Razumijevanje vlastitih emocija i razvoj efikasnih načina
-                    nošenja s njima
-                  </li>
-                  <li>
-                    Razvoj komunikacijskih vještina s ciljem poboljšanja
-                    međuljudskih odnosa i povećanja vjerojatnosti za uspjeh
-                  </li>
-                  <li>
-                    Prepoznavanje vlastitih vrijednosti (što nam je u životu
-                    najvažnije) kao glavnih smjernica za autentičan i ispunjen
-                    život
+                    Prepoznavanje vlastitih vrijednosti (što nam je u životu najvažnije) kao glavnih
+                    smjernica za autentičan i ispunjen život
                   </li>
                 </ul>
               </div>
 
-              <a
-                href="contact.html"
-                class="spotlight__link"
-                data-i18n="services.cta"
+              <a href="contact.html" class="spotlight__link" data-i18n="services.cta"
                 >Zakaži razgovor</a
               >
             </div>
@@ -222,11 +171,7 @@
         <div class="container">
           <div class="spotlight spotlight--reverse">
             <div class="spotlight__image">
-              <img
-                src="./assets/images/usluga4.jpg"
-                alt="Meditacija i spokojstvo"
-                loading="lazy"
-              />
+              <img src="./assets/images/usluga4.jpg" alt="Meditacija i spokojstvo" loading="lazy" />
             </div>
             <div class="spotlight__content">
               <h2 id="spiritual-heading" data-i18n="services.spiritual.heading">
@@ -235,59 +180,43 @@
 
               <div class="service-detail">
                 <p data-i18n="services.spiritual.intro">
-                  Znanost je zadnjih desetljeća počela povezivati duhovna učenja
-                  sa znanstveno dokazanim principima i konceptima. Jeste li
-                  ikada pomislili:
+                  Znanost je zadnjih desetljeća počela povezivati duhovna učenja sa znanstveno
+                  dokazanim principima i konceptima. Jeste li ikada pomislili:
                 </p>
                 <ul data-i18n-list="services.spiritual.items">
                   <li>Što točno znači prosvjetljenje? Kako ga postići?</li>
+                  <li>Kako da podignem svoju vibracijsku razinu trajno i u potpunosti?</li>
                   <li>
-                    Kako da podignem svoju vibracijsku razinu trajno i u
-                    potpunosti?
+                    Što sve točno uključuje manifestacija? Koji su koraci i kako da manifestiram ono
+                    što želim?
                   </li>
                   <li>
-                    Što sve točno uključuje manifestacija? Koji su koraci i kako
-                    da manifestiram ono što želim?
+                    Kako da koristim afirmacije? Trudim se razmišljati pozitivno, ali se ništa ne
+                    mijenja.
                   </li>
-                  <li>
-                    Kako da koristim afirmacije? Trudim se razmišljati
-                    pozitivno, ali se ništa ne mijenja.
-                  </li>
-                  <li>
-                    Meditacija jednostavno nije za mene. Što da radim umjesto
-                    toga?
-                  </li>
-                  <li>
-                    Jako upijam i osjećam emocije drugih ljudi oko sebe. Kako da
-                    se zaštitim?
-                  </li>
+                  <li>Meditacija jednostavno nije za mene. Što da radim umjesto toga?</li>
+                  <li>Jako upijam i osjećam emocije drugih ljudi oko sebe. Kako da se zaštitim?</li>
                   <li>Što je točno ego i zašto se ponekad aktivira?</li>
                   <li>
-                    Kako da razvijem svoju intuiciju? Čini se da ona nekada
-                    radi, a nekada ne.
+                    Kako da razvijem svoju intuiciju? Čini se da ona nekada radi, a nekada ne.
                   </li>
                   <li>
-                    Jesu li energije s kojima radim (ili se susrećem) pozitivne?
-                    Kako da znam prepoznati razliku?
+                    Jesu li energije s kojima radim (ili se susrećem) pozitivne? Kako da znam
+                    prepoznati razliku?
                   </li>
                 </ul>
                 <p data-i18n="services.spiritual.outro">
-                  Ovo su samo neka od pitanja koja se mogu javiti na putu
-                  osobnog duhovnog razvoja. Ako se osjećate kao da ste "zapeli"
-                  na nekom od koraka svog puta, ovdje sam da vam pomognem. Kroz
-                  svoje vlastito iskustvo i metode rada, naučila sam spojiti
-                  "neopipljive" koncepte duhovnosti s praktičnim tehnikama i
-                  alatima koje ću vrlo rado podijeliti s vama. Često je vrlo
-                  malo potrebno kako bismo dalje mogli nastaviti sami. Za to
-                  može biti potreban samo jedan susret ili više njih, a što u
+                  Ovo su samo neka od pitanja koja se mogu javiti na putu osobnog duhovnog razvoja.
+                  Ako se osjećate kao da ste "zapeli" na nekom od koraka svog puta, ovdje sam da vam
+                  pomognem. Kroz svoje vlastito iskustvo i metode rada, naučila sam spojiti
+                  "neopipljive" koncepte duhovnosti s praktičnim tehnikama i alatima koje ću vrlo
+                  rado podijeliti s vama. Često je vrlo malo potrebno kako bismo dalje mogli
+                  nastaviti sami. Za to može biti potreban samo jedan susret ili više njih, a što u
                   potpunosti ovisi o vama, vašim potrebama i željama.
                 </p>
               </div>
 
-              <a
-                href="contact.html"
-                class="spotlight__link"
-                data-i18n="services.cta"
+              <a href="contact.html" class="spotlight__link" data-i18n="services.cta"
                 >Zakaži razgovor</a
               >
             </div>
@@ -296,15 +225,11 @@
       </section>
 
       <!-- ── SERVICE 5: REIKI ──────────────────────────────── -->
-      <section class="section section--alt" aria-labelledby="reiki-heading">
+      <section class="section section--alt" aria-labelledby="reiki-heading" hidden>
         <div class="container">
           <div class="spotlight">
             <div class="spotlight__image">
-              <img
-                src="./assets/images/usluga5.jpg"
-                alt="Priroda i put"
-                loading="lazy"
-              />
+              <img src="./assets/images/usluga5.jpg" alt="Priroda i put" loading="lazy" />
             </div>
             <div class="spotlight__content">
               <h2 id="reiki-heading" data-i18n="services.reiki.heading">
@@ -313,50 +238,30 @@
 
               <div class="service-detail">
                 <p data-i18n="services.reiki.intro">
-                  Reiki Holy Fire III je nježan, ali iznimno snažan oblik
-                  energetskog iscjeljivanja, poznat po svojim duboko
-                  pročišćavajućim, njegujućim i transformativnim svojstvima.
-                  Djeluje tako da aktivira prirodnu sposobnost tijela da se
-                  vrati u stanje ravnoteže, otpusti napetost i stvori dublji
-                  osjećaj unutarnjeg mira. Pomaže da se povežemo sa svojom
-                  unutarnjom snagom, jasnoćom i smjerom, bez forsiranja i uvijek
-                  u skladu s našim vlastitim ritmom. S obzirom na to, može vam
-                  pomoći ako:
+                  Reiki Holy Fire III je nježan, ali iznimno snažan oblik energetskog iscjeljivanja,
+                  poznat po svojim duboko pročišćavajućim, njegujućim i transformativnim svojstvima.
+                  Djeluje tako da aktivira prirodnu sposobnost tijela da se vrati u stanje
+                  ravnoteže, otpusti napetost i stvori dublji osjećaj unutarnjeg mira. Pomaže da se
+                  povežemo sa svojom unutarnjom snagom, jasnoćom i smjerom, bez forsiranja i uvijek
+                  u skladu s našim vlastitim ritmom. S obzirom na to, može vam pomoći ako:
                 </p>
                 <ul data-i18n-list="services.reiki.items">
-                  <li>
-                    tražite emocionalno olakšanje, uzemljenje ili smirenje
-                  </li>
-                  <li>
-                    osjećate preopterećenost, stres ili energetsku iscrpljenost
-                  </li>
-                  <li>
-                    želite se ponovno povezati sa sobom i svojom intuicijom
-                  </li>
-                  <li>
-                    prolazite kroz životne promjene ili procese iscjeljivanja
-                  </li>
-                  <li>
-                    trebate podršku u otpuštanju starih obrazaca ili
-                    emocionalnih blokada
-                  </li>
-                  <li>
-                    želite podići svoju vibraciju i osjećati se usklađenije
-                  </li>
+                  <li>tražite emocionalno olakšanje, uzemljenje ili smirenje</li>
+                  <li>osjećate preopterećenost, stres ili energetsku iscrpljenost</li>
+                  <li>želite se ponovno povezati sa sobom i svojom intuicijom</li>
+                  <li>prolazite kroz životne promjene ili procese iscjeljivanja</li>
+                  <li>trebate podršku u otpuštanju starih obrazaca ili emocionalnih blokada</li>
+                  <li>želite podići svoju vibraciju i osjećati se usklađenije</li>
                 </ul>
                 <p data-i18n="services.reiki.outro">
-                  Budući da je Reiki sam po sebi inteligentna energija, on
-                  uvijek djeluje onako kako je u tom trenutku najbolje za vas.
-                  Može vam pomoći da se osjećate opuštenije i odmornije, ili
-                  donijeti duboke pomake upravo u područjima u kojima ste
-                  spremni za promjenu.
+                  Budući da je Reiki sam po sebi inteligentna energija, on uvijek djeluje onako kako
+                  je u tom trenutku najbolje za vas. Može vam pomoći da se osjećate opuštenije i
+                  odmornije, ili donijeti duboke pomake upravo u područjima u kojima ste spremni za
+                  promjenu.
                 </p>
               </div>
 
-              <a
-                href="contact.html"
-                class="spotlight__link"
-                data-i18n="services.ctaReiki"
+              <a href="contact.html" class="spotlight__link" data-i18n="services.ctaReiki"
                 >Zakaži tretman</a
               >
             </div>
@@ -365,43 +270,33 @@
       </section>
 
       <!-- ── SERVICE 6: RELAXATION GROUPS ─────────────────────────────── -->
-      <section class="section" aria-labelledby="relax-heading">
+      <section class="section" aria-labelledby="relax-heading" hidden>
         <div class="container">
           <div class="spotlight spotlight--reverse">
             <div class="spotlight__image">
-              <img
-                src="./assets/images/relax.jpg"
-                alt="Priroda i spokojstvo"
-                loading="lazy"
-              />
+              <img src="./assets/images/relax.jpg" alt="Priroda i spokojstvo" loading="lazy" />
             </div>
             <div class="spotlight__content">
-              <h2 id="relax-heading" data-i18n="services.relax.heading">
-                Grupe opuštanja
-              </h2>
+              <h2 id="relax-heading" data-i18n="services.relax.heading">Grupe opuštanja</h2>
 
               <div class="service-detail">
                 <p data-i18n="services.relax.p1">
                   Istraživanja pokazuju da redovno prakticiranje
-                  <strong>tehnika opuštanja</strong> smanjuje utjecaj stresa,
-                  povećava koncentraciju, osjećaj mira i blagostanja. Također
-                  nam omogućava da lakše primijetimo što se u nama događa, a što
-                  može biti ključno za uspješno nošenje s raznovrsnim
-                  situacijama te postizanje naših ciljeva (čak i ako je to
-                  „samo“ biti dobro).
+                  <strong>tehnika opuštanja</strong> smanjuje utjecaj stresa, povećava
+                  koncentraciju, osjećaj mira i blagostanja. Također nam omogućava da lakše
+                  primijetimo što se u nama događa, a što može biti ključno za uspješno nošenje s
+                  raznovrsnim situacijama te postizanje naših ciljeva (čak i ako je to „samo“ biti
+                  dobro).
                 </p>
                 <p data-i18n="services.relax.p2">
-                  Ove grupe osmišljene su kako bi vam pomogle izdvojiti vrijeme
-                  za sebe te naučiti i prakticirati različite tehnike opuštanja.
-                  Pri svakom susretu vođeno opuštanje može izgledati malo
-                  drugačije, no uvijek će za cilj imati umirivanje živčanog
-                  sustava, otpuštanje napetosti i utišavanje misli. Time svoj
-                  sustav vraćamo u „sada i ovdje“ čime mu dajemo priliku da se
-                  odmori od svakodnevice.
+                  Ove grupe osmišljene su kako bi vam pomogle izdvojiti vrijeme za sebe te naučiti i
+                  prakticirati različite tehnike opuštanja. Pri svakom susretu vođeno opuštanje može
+                  izgledati malo drugačije, no uvijek će za cilj imati umirivanje živčanog sustava,
+                  otpuštanje napetosti i utišavanje misli. Time svoj sustav vraćamo u „sada i ovdje“
+                  čime mu dajemo priliku da se odmori od svakodnevice.
                 </p>
                 <p data-i18n="services.relax.sessionsIntro">
-                  Susreti se održavaju online, traju oko 30 minuta i sastoje se
-                  od:
+                  Susreti se održavaju online, traju oko 30 minuta i sastoje se od:
                 </p>
                 <ul data-i18n-list="services.relax.sessionItems">
                   <li>kratkog uvoda i okupljanja</li>
@@ -416,18 +311,16 @@
                 <ul data-i18n-list="services.relax.needItems">
                   <li>uređaj na kojem možete pokrenuti Google Meet</li>
                   <li>
-                    prostor i vrijeme u kojem se možete opustiti i u kojem
-                    nećete biti ometani izvana
+                    prostor i vrijeme u kojem se možete opustiti i u kojem nećete biti ometani
+                    izvana
                   </li>
                   <li>
-                    <strong>nikakvo predznanje niti iskustvo</strong>. Sve
-                    vježbe su u potpunosti vođene kako biste se mogli maksimalno
-                    opustiti i prepustiti iskustvu
+                    <strong>nikakvo predznanje niti iskustvo</strong>. Sve vježbe su u potpunosti
+                    vođene kako biste se mogli maksimalno opustiti i prepustiti iskustvu
                   </li>
                 </ul>
                 <p data-i18n="services.relax.closing">
-                  Jeste li spremni učiniti nešto dobro za sebe – a time i za sve
-                  oko vas?
+                  Jeste li spremni učiniti nešto dobro za sebe – a time i za sve oko vas?
                 </p>
               </div>
 
@@ -447,16 +340,11 @@
       <section class="section section--alt" aria-labelledby="pricing-heading">
         <div class="container">
           <div class="faq-cta faq-cta--flush">
-            <h2 id="pricing-heading" data-i18n="services.pricingHeading">
-              Cjenik
-            </h2>
+            <h2 id="pricing-heading" data-i18n="services.pricingHeading">Cjenik</h2>
             <p data-i18n="services.pricingText">
               Cijene susreta i Reiki tretmana te uvjeti plaćanja i otkazivanja.
             </p>
-            <a
-              href="faq.html#pricing"
-              class="btn btn--primary"
-              data-i18n="services.pricingCta"
+            <a href="faq.html#pricing" class="btn btn--primary" data-i18n="services.pricingCta"
               >Pogledajte cjenik</a
             >
           </div>

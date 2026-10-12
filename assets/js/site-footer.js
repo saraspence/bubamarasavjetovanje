@@ -149,7 +149,10 @@ class SiteFooter extends HTMLElement {
         }
       } catch {
         showStatus(
-          t('footer.networkError', 'Nije moguće poslati poruku. Provjerite vezu i pokušajte ponovno.'),
+          t(
+            'footer.networkError',
+            'Nije moguće poslati poruku. Provjerite vezu i pokušajte ponovno.'
+          ),
           'error'
         );
       } finally {

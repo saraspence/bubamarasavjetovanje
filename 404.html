@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script>
       /* i18n: set <html lang> before first paint so CSS can hide the Croatian fallback for EN visitors */
-      (function () { try { var l = new URLSearchParams(location.search).get("lang") || localStorage.getItem("lang"); if (l && l !== "hr") document.documentElement.lang = l; } catch (e) {} })();
+      (function () {
+        try {
+          var l = new URLSearchParams(location.search).get("lang") || localStorage.getItem("lang");
+          if (l && l !== "hr") document.documentElement.lang = l;
+        } catch (e) {}
+      })();
     </script>
     <title>Stranica nije pronađena — Bubamara Savjetovanje</title>
     <meta name="robots" content="noindex" />
@@ -35,8 +40,8 @@
       <div class="page-hero">
         <h1 data-i18n="notFound.heading">Stranica nije pronađena</h1>
         <p data-i18n="notFound.text">
-          Nažalost, stranica koju tražite ne postoji ili je premještena.
-          Provjerite adresu ili se vratite na naslovnicu.
+          Nažalost, stranica koju tražite ne postoji ili je premještena. Provjerite adresu ili se
+          vratite na naslovnicu.
         </p>
         <p style="margin-top: 2rem">
           <a class="btn btn--primary" href="/" data-i18n="notFound.home">Naslovna</a>

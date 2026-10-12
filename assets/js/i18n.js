@@ -17,8 +17,7 @@ const STORAGE_KEY = 'lang';
 let dict = null;
 let currentLang = DEFAULT_LANG;
 
-const lookup = (obj, path) =>
-  path.split('.').reduce((o, k) => (o == null ? undefined : o[k]), obj);
+const lookup = (obj, path) => path.split('.').reduce((o, k) => (o == null ? undefined : o[k]), obj);
 
 export function getLang() {
   return currentLang;
@@ -86,9 +85,9 @@ export function apply(root = document) {
     });
   });
 
-  root.querySelectorAll('[data-lang]').forEach((btn) =>
-    btn.setAttribute('aria-pressed', String(btn.dataset.lang === currentLang))
-  );
+  root
+    .querySelectorAll('[data-lang]')
+    .forEach((btn) => btn.setAttribute('aria-pressed', String(btn.dataset.lang === currentLang)));
 
   if (root === document) {
     const page = document.body?.dataset.page;
