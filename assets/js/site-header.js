@@ -110,8 +110,8 @@ class SiteHeader extends HTMLElement {
   }
 
   _initDrawer() {
-    const toggle  = this.querySelector('.nav-toggle');
-    const drawer  = this.querySelector('.nav-drawer');
+    const toggle = this.querySelector('.nav-toggle');
+    const drawer = this.querySelector('.nav-drawer');
     const overlay = this.querySelector('.nav-overlay');
     const closeBtn = this.querySelector('.nav-drawer__close');
 
@@ -139,9 +139,9 @@ class SiteHeader extends HTMLElement {
     closeBtn.addEventListener('click', close);
     overlay.addEventListener('click', close);
 
-    drawer.querySelectorAll('.nav-drawer__link').forEach((link) =>
-      link.addEventListener('click', close)
-    );
+    drawer
+      .querySelectorAll('.nav-drawer__link')
+      .forEach((link) => link.addEventListener('click', close));
 
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && drawer.classList.contains('is-open')) close();

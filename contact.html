@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script>
       /* i18n: set <html lang> before first paint so CSS can hide the Croatian fallback for EN visitors */
-      (function () { try { var l = new URLSearchParams(location.search).get("lang") || localStorage.getItem("lang"); if (l && l !== "hr") document.documentElement.lang = l; } catch (e) {} })();
+      (function () {
+        try {
+          var l = new URLSearchParams(location.search).get("lang") || localStorage.getItem("lang");
+          if (l && l !== "hr") document.documentElement.lang = l;
+        } catch (e) {}
+      })();
     </script>
     <title>Kontakt — Bubamara Savjetovanje</title>
     <meta

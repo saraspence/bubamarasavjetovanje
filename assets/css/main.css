@@ -4,16 +4,16 @@
    ================================================ */
 
 @font-face {
-  font-family: "MufanPFS";
-  src: url("../webfonts/mufanpfs.otf") format("opentype");
+  font-family: 'MufanPFS';
+  src: url('../webfonts/mufanpfs.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Candara";
-  src: url("../webfonts/candara.woff") format("woff");
+  font-family: 'Candara';
+  src: url('../webfonts/candara.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -83,7 +83,7 @@ button {
 
 /* === BASE === */
 body {
-  font-family: "Candara", "Source Sans Pro", sans-serif;
+  font-family: 'Candara', 'Source Sans Pro', sans-serif;
   font-size: 1rem;
   line-height: 1.75;
   color: var(--c-text);
@@ -94,7 +94,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "MufanPFS", Helvetica, sans-serif;
+  font-family: 'MufanPFS', Helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.2;
   color: var(--c-text);
@@ -243,7 +243,7 @@ ol {
   display: block;
   padding: 0 1.1rem;
   color: var(--c-muted);
-  font-family: "MufanPFS", sans-serif;
+  font-family: 'MufanPFS', sans-serif;
   font-weight: 600;
   font-size: 1.25rem;
   letter-spacing: 0.07em;
@@ -259,7 +259,7 @@ ol {
   color: var(--c-text);
   text-decoration: none;
 }
-.site-nav__link[aria-current="page"] {
+.site-nav__link[aria-current='page'] {
   color: var(--c-text);
   border-bottom-color: var(--c-accent);
 }
@@ -334,7 +334,7 @@ ol {
 }
 
 .nav-drawer__logo {
-  font-family: "MufanPFS", sans-serif;
+  font-family: 'MufanPFS', sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
   color: var(--c-text);
@@ -371,7 +371,7 @@ ol {
   display: block;
   padding: 1rem 0;
   color: var(--c-muted);
-  font-family: "MufanPFS", sans-serif;
+  font-family: 'MufanPFS', sans-serif;
   font-weight: 600;
   font-size: 1.65rem;
   text-decoration: none;
@@ -381,7 +381,7 @@ ol {
     padding-left var(--transition);
 }
 .nav-drawer__link:hover,
-.nav-drawer__link[aria-current="page"] {
+.nav-drawer__link[aria-current='page'] {
   color: var(--c-accent);
   padding-left: 0.5rem;
   text-decoration: none;
@@ -607,7 +607,7 @@ ol {
   text-decoration: none;
 }
 .spotlight__link::after {
-  content: " →";
+  content: ' →';
 }
 .spotlight__link:hover {
   color: #c47a62;
@@ -717,7 +717,7 @@ ol {
   border-top: 1px solid rgba(61, 107, 48, 0.18);
 }
 .cert-list li::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 50%;
@@ -926,7 +926,7 @@ ol {
   justify-content: space-between;
   gap: 1rem;
   padding: 1.4rem 0;
-  font-family: "Candara", "Source Sans Pro", sans-serif;
+  font-family: 'Candara', 'Source Sans Pro', sans-serif;
   font-size: clamp(1.05rem, 2.5vw, 1.2rem);
   font-weight: 400;
   color: var(--c-text);
@@ -939,8 +939,8 @@ ol {
   display: none;
 }
 .faq-item__question::after {
-  content: "\f067";
-  font-family: "Font Awesome 6 Free";
+  content: '\f067';
+  font-family: 'Font Awesome 6 Free';
   font-weight: 900;
   font-size: 0.75rem;
   flex-shrink: 0;
@@ -951,7 +951,7 @@ ol {
   color: var(--c-green);
 }
 .faq-item[open] > .faq-item__question::after {
-  content: "\f068";
+  content: '\f068';
 }
 
 .faq-item__answer {
@@ -1071,7 +1071,7 @@ ol {
   border-bottom: 2px solid transparent;
   cursor: pointer;
   padding: 0.15rem 0.35rem;
-  font-family: "MufanPFS", sans-serif;
+  font-family: 'MufanPFS', sans-serif;
   font-weight: 600;
   font-size: 1rem;
   letter-spacing: 0.07em;
@@ -1083,7 +1083,7 @@ ol {
 .lang-switch button:hover {
   color: var(--c-text);
 }
-.lang-switch button[aria-pressed="true"] {
+.lang-switch button[aria-pressed='true'] {
   color: var(--c-text);
   border-bottom-color: var(--c-accent);
 }
@@ -1097,7 +1097,7 @@ ol {
 
 /* Hide page content until a non-default language has been applied,
    so English visitors never see a flash of Croatian. Croatian is never hidden. */
-html:not([lang="hr"]):not(.i18n-ready) main,
-html:not([lang="hr"]):not(.i18n-ready) site-footer {
+html:not([lang='hr']):not(.i18n-ready) main,
+html:not([lang='hr']):not(.i18n-ready) site-footer {
   visibility: hidden;
 }
