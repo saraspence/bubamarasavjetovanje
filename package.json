@@ -3,9 +3,24 @@
   "private": true,
   "scripts": {
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "validate:json": "node scripts/validate-json.mjs",
+    "check": "npm run validate:json && npm run format:check",
+    "prepare": "simple-git-hooks"
   },
   "devDependencies": {
-    "prettier": "3.9.10"
+    "lint-staged": "17.6.0",
+    "prettier": "3.9.10",
+    "simple-git-hooks": "2.14.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.json": [
+      "node scripts/validate-json.mjs",
+      "prettier --write"
+    ],
+    "*.{html,css,js,mjs,md,yml,yaml}": "prettier --write"
   }
 }
