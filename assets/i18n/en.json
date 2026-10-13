@@ -206,7 +206,7 @@
       "closing": "Ready to do something good for yourself—and, in turn, for everyone around you?"
     },
     "pricingHeading": "Pricing",
-    "pricingText": "Prices of sessions and Reiki treatments, payment and cancellation terms.",
+    "pricingText": "Prices, payment and cancellation terms.",
     "pricingCta": "See the price list"
   },
 
@@ -243,22 +243,19 @@
       "answer": [
         "Sessions can be held online or in person, in Croatian or English, depending on your preferences.",
         "Sessions usually last 50 minutes, and extended sessions (90–100 minutes) can be arranged if needed.",
-        "The frequency of sessions varies. Ideally, sessions are regular (e.g., weekly or bi-weekly), as consistency supports the change process by providing structure and continuity.",
-        "Reiki sessions are conducted exclusively remotely (online). Each session lasts 25–35 minutes. During the session, you should remain awake and either lying down or sitting comfortably, in your own space, free of distractions."
+        "The frequency of sessions varies. Ideally, sessions are regular (e.g., weekly or bi-weekly), as consistency supports the change process by providing structure and continuity."
       ]
     },
     "q4": {
       "q": "What can I expect from Sara and the process?",
       "answer": [
-        "Because I place great importance on “humanity,” my core values include compassion, respect, and appreciation for each person’s unique characteristics, needs, desires, and circumstances. You can expect me to do everything I can to ensure you feel seen, acknowledged, and free to express whatever is important to you in that moment. You can also expect occasional questions, exercises, and feedback, depending on the situation. These are invitations to broaden your perspective, discover new creative solutions, and achieve meaningful change.",
-        "During Reiki sessions, you may experience physical sensations, emotions or insights — or nothing at all. Reiki is gentle yet highly intelligent and powerful, and its effects depend entirely on what is best for you at that moment."
+        "Because I place great importance on “humanity,” my core values include compassion, respect, and appreciation for each person’s unique characteristics, needs, desires, and circumstances. You can expect me to do everything I can to ensure you feel seen, acknowledged, and free to express whatever is important to you in that moment. You can also expect occasional questions, exercises, and feedback, depending on the situation. These are invitations to broaden your perspective, discover new creative solutions, and achieve meaningful change."
       ]
     },
     "q5": {
       "q": "How quickly can I expect results?",
       "answer": [
-        "The pace of progress depends on your specific goal and situation. The number of sessions may range from just one to many.",
-        "The number of Reiki sessions never exceeds 10 without a longer break in between."
+        "The pace of progress depends on your specific goal and situation. The number of sessions may range from just one to many."
       ]
     },
     "pricing": {
@@ -266,8 +263,7 @@
       "intro": "In accordance with consumer protection regulations, I hereby publish this <strong>price list of services</strong> for Bubamara savjetovanje, sole proprietorship owned by Sara Spence, Slavka Kolara 10, Velika Gorica, valid as of 10 September 2026:",
       "items": [
         "Individual counselling session (single): €40",
-        "Block session (double/extended): €80",
-        "Reiki treatment: €25 (discounts available when booking and paying for 10 sessions in advance)"
+        "Block session (double/extended): €80"
       ],
       "terms": "Payment & promotional terms: Payment is accepted <strong>exclusively</strong> via <strong>bank transfer</strong> upon invoice issuance. Promotional discounts apply subject to meeting public campaign criteria.",
       "cancellation": "Cancellation policy: Cancellations made <strong>less than 24 hours</strong> prior to the scheduled appointment (including weekends and public holidays) will incur a charge of <strong>50%</strong> of the session fee.",

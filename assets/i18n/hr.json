@@ -169,7 +169,7 @@
       "closing": "Jeste li spremni učiniti nešto dobro za sebe – a time i za sve oko vas?"
     },
     "pricingHeading": "Cjenik",
-    "pricingText": "Cijene susreta i Reiki tretmana te uvjeti plaćanja i otkazivanja.",
+    "pricingText": "Cijene te uvjeti plaćanja i otkazivanja.",
     "pricingCta": "Pogledajte cjenik"
   },
 
@@ -206,21 +206,19 @@
       "answer": [
         "Susrete možemo održavati online ili uživo, na hrvatskom ili engleskom jeziku, ovisno o mogućnostima i preferencijama.",
         "Susreti obično traju 50 minuta, a moguće je dogovoriti i blok-susret po potrebi (trajanje susreta je u tom slučaju 90–100 minuta).",
-        "Čestina susreta može biti različita. Poželjno je da susreti budu što redovitiji (primjerice, jednom tjedno ili jednom u dva tjedna), što pomaže u procesu promjene jer nam daje strukturu i okvir unutar kojega radimo.",
-        "Reiki tretmani se provode isključivo na daljinu, odnosno online. Pojedini tretman traje 25-35 minuta. Dok traje tretman, potrebno je ostati budan te ležati ili sjediti u udobnom, opuštenom položaju, u svom privatnom prostoru, bez okolnih distrakcija."
+        "Čestina susreta može biti različita. Poželjno je da susreti budu što redovitiji (primjerice, jednom tjedno ili jednom u dva tjedna), što pomaže u procesu promjene jer nam daje strukturu i okvir unutar kojega radimo."
       ]
     },
     "q4": {
       "q": "Što mogu očekivati od Sare i cijelog procesa?",
       "answer": [
-        "S obzirom na važnost koju pridajem \"ljudskosti\", moje glavne vrijednosti uključuju suosjećanje, poštovanje i uvažavanje svih individualnih karakteristika, potreba, želja i okolnosti svakog ljudskog bića. S obzirom na to, možete očekivati da ću dati sve od sebe da se sa mnom osjećate viđeno, poštovano i nadasve slobodno izraziti sve ono što vam je važno i potrebno u tom trenutku. Uz to, možete očekivati i povremena pitanja, vježbe i povratne informacije, ovisno o situaciji. Time vas pozivam na širenje pogleda na sebe i svijet, pronalazak novih, kreativnih rješenja i postizanje željenih promjena.",
-        "Tijekom Reiki tretmana možete osjetiti toplinu, trnce, emocije ili uvide, a ponekad i ništa posebno. Reiki je nježna, ali snažna energija koja djeluje isključivo onako kako je u tom trenutku najbolje za vas."
+        "S obzirom na važnost koju pridajem \"ljudskosti\", moje glavne vrijednosti uključuju suosjećanje, poštovanje i uvažavanje svih individualnih karakteristika, potreba, želja i okolnosti svakog ljudskog bića. S obzirom na to, možete očekivati da ću dati sve od sebe da se sa mnom osjećate viđeno, poštovano i nadasve slobodno izraziti sve ono što vam je važno i potrebno u tom trenutku. Uz to, možete očekivati i povremena pitanja, vježbe i povratne informacije, ovisno o situaciji. Time vas pozivam na širenje pogleda na sebe i svijet, pronalazak novih, kreativnih rješenja i postizanje željenih promjena."
       ]
     },
     "q5": {
       "q": "Koliko brzo mogu očekivati rezultate?",
       "answer": [
-        "Brzina rezultata ovisi o konkretnom cilju i situaciji u kojoj se nalazite. S obzirom na to, broj susreta se može kretati od samo jednog pa na više. Broj Reiki tretmana nikada ne prelazi 10 bez duže pauze između blokova."
+        "Brzina rezultata ovisi o konkretnom cilju i situaciji u kojoj se nalazite. S obzirom na to, broj susreta se može kretati od samo jednog pa na više."
       ]
     },
     "pricing": {
@@ -228,8 +226,7 @@
       "intro": "U skladu s propisima o zaštiti potrošača, donosim <strong>cjenik usluga</strong> za obrt Bubamara savjetovanje, vl. Sara Spence, Slavka Kolara 10, Velika Gorica (cijene važeće od 10.09.2026.):",
       "items": [
         "Individualno savjetovanje (jedan susret): 40€",
-        "Individualno savjetovanje (blok-susret): 80€",
-        "Reiki tretman: 25€ (moguć je popust za ukupne uplate unaprijed za 10 tretmana)"
+        "Individualno savjetovanje (blok-susret): 80€"
       ],
       "terms": "Uvjeti plaćanja i promocije: Platiti se može <strong>isključivo</strong> putem <strong>bankovne transakcije</strong> po izdanom računu. Popusti se odobravaju ovisno o zadovoljenju kriterija u javnim promocijama.",
       "cancellation": "Politika otkazivanja: U slučaju otkazivanja <strong>manje od 24 sata</strong> prije dogovorenog termina (uključujući vikende i blagdane), naplaćuje se <strong>50%</strong> cijene susreta.",
