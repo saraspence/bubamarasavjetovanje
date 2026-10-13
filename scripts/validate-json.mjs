@@ -11,9 +11,10 @@
  * Always checks the whole repo; file arguments (from lint-staged) are ignored.
  */
 import { readFileSync, readdirSync } from 'node:fs';
-import { join, relative } from 'node:path';
+import { join, relative, sep } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = new URL('..', import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const SKIP_DIRS = new Set(['node_modules', '_site']);
 const I18N_DIR = 'assets/i18n';
 const LANGS = ['hr', 'en'];
@@ -32,7 +33,8 @@ function findJsonFiles(dir) {
 
 const parsed = new Map();
 for (const file of findJsonFiles(ROOT)) {
-  const rel = relative(ROOT, file);
+  // Forward slashes on every OS, so the i18n lookups below match on Windows.
+  const rel = relative(ROOT, file).split(sep).join('/');
   try {
     parsed.set(rel, JSON.parse(readFileSync(file, 'utf8')));
   } catch (err) {
