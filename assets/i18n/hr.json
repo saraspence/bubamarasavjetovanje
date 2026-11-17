@@ -230,7 +230,7 @@
       ],
       "terms": "Uvjeti plaćanja i promocije: Platiti se može <strong>isključivo</strong> putem <strong>bankovne transakcije</strong> po izdanom računu. Popusti se odobravaju ovisno o zadovoljenju kriterija u javnim promocijama.",
       "cancellation": "Politika otkazivanja: U slučaju otkazivanja <strong>manje od 24 sata</strong> prije dogovorenog termina (uključujući vikende i blagdane), naplaćuje se <strong>50%</strong> cijene susreta.",
-      "link": "Skini CSV cjenik"
+      "link": "Skini cjenik u CSV-u"
     },
     "ctaText": "Imate još pitanja? Slobodno me kontaktirajte.",
     "ctaButton": "Pošaljite poruku"
